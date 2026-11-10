@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RV-1A — Cinemática Direta</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <a href="../">← Voltar ao maGbRAIN</a><h1>Mitsubishi RV-1A — Cinemática Direta</h1>
+      <p>Sliders das juntas + posição/orientação do TCP em tempo real + visualização alinhada ao esboço.</p>
+    </div>
+    <div class="actions"><button id="resetBtn">Zerar juntas</button><button id="homeBtn">Home/Referência</button></div>
+  </header>
+
+  <main>
+    <section class="panel controls">
+      <h2>Ângulos das juntas</h2>
+      <p class="hint">
+        Nesta versão, a pose zerada foi ajustada para ficar <strong>igual ao esboço</strong>:
+        coluna vertical, deslocamento horizontal de 43 mm e subida do punho no topo.
+      </p>
+      <div id="sliders"></div><p class="hint">J3 esquemático −30°…+65° corresponde provisoriamente ao intervalo físico +60°…+155°, com referência de 90°. Validar o offset com o professor.</p>
+    </section>
+
+    <section class="panel output">
+      <h2>TCP — resultado da cinemática direta</h2>
+      <div class="cards">
+        <div class="card"><span>X</span><strong id="xOut">0.00 mm</strong></div>
+        <div class="card"><span>Y</span><strong id="yOut">0.00 mm</strong></div>
+        <div class="card"><span>Z</span><strong id="zOut">0.00 mm</strong></div>
+        <div class="card"><span>Roll</span><strong id="rollOut">0.00°</strong></div>
+        <div class="card"><span>Pitch</span><strong id="pitchOut">0.00°</strong></div>
+        <div class="card"><span>Yaw</span><strong id="yawOut">0.00°</strong></div>
+      </div>
+
+      <h3>Matriz homogênea ⁰T<sub>TCP</sub></h3>
+      <pre id="matrixOut"></pre>
+    </section>
+
+    <section class="panel side-panel"><h2>Vista lateral · plano XZ</h2><p class="hint">Projeção na base · medidas reais em mm · X vermelho, Y verde, Z azul</p><canvas id="sideCanvas" aria-label="Vista lateral do robô"></canvas></section>
+    <section class="panel canvas-panel">
+      <div class="canvas-title">
+        <h2>Visualização 3D simplificada</h2>
+        <span>Arraste para girar a câmera • scroll para zoom</span>
+      </div>
+      <canvas id="robotCanvas" width="900" height="620"></canvas>
+    </section>
+
+    <section class="panel dh-panel">
+      <div class="dh-title">
+        <div>
+          <h2>Parâmetros do esboço / modelo geométrico</h2>
+          <p class="hint">
+            O modelo abaixo usa as distâncias do esboço. Você pode alterar os valores e reaplicar.
+          </p>
+        </div>
+        <button id="applyParamsBtn">Aplicar parâmetros</button>
+      </div>
+
+      <p id="paramError" role="alert"></p><div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Parâmetro</th>
+              <th>Descrição</th>
+              <th>Valor (mm)</th>
+            </tr>
+          </thead>
+          <tbody id="paramBody"></tbody>
+        </table>
+      </div>
+
+      <details>
+        <summary>Convenções e validação pendente</summary><p>Modelo esquemático serial, destro, Z para cima. Eixos locais J1…J6 = Z,Y,Y,Z,Y,Z. Ferramenta em +Z local. R = Rz(yaw) Ry(pitch) Rx(roll). Na singularidade de Euler, roll é fixado em zero. Home restaura pose zero e câmera. Os frames desenhados são geométricos provisórios. Tabela DH, offsets físicos e calibração da ferramenta aguardam validação.</p>
+        <p>
+          Quando J1 = J2 = J3 = J4 = J5 = J6 = 0°, o robô fica na configuração do esboço: base vertical,
+          elo principal subindo, deslocamento horizontal de 43 mm até a coluna do punho, subida de 90 + 117 mm,
+          depois mais 42 mm até O6 e 30 mm até o TCP/ferramenta.
+        </p>
+      </details>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
