@@ -35,3 +35,7 @@ Cronologia/idade do sucessor no coop; homenagem sem capacete recuperado; regras 
 ## Sugestão da mosca-guia · 2026-11-06
 
 Sugestão de Felipe (fkumagae) registrada na ficha REP-0001, com referência textual a REP-0012 e mecânica sugerida pela IA. Entrega vinculada à [Issue #24](https://github.com/PedroCamargoLINCE/maGbRAIN/issues/24), aguardando revisão e integração. [Passagem de trabalho](handoffs/2026-11-06-mosca-guia.md). Modelo virtual e divisão dos comportamentos permanecem em aberto.
+
+## Demo mosca-guia
+
+2026-11-11 · Demo jogável independente, Issue #33. Publicação e acesso pelas duas fichas. Fuga por regra de jogo e telemetria FlyBrain, com experimento documentado em mosca-guia/app/guide-experiments/REPORT.md.

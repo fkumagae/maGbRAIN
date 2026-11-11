@@ -3,6 +3,7 @@ id: REP-0012
 title: "Projeto com cérebro virtual de mosca"
 status: inbox
 owner: null
+site: mosca-guia/
 ---
 
 # Projeto com cérebro virtual de mosca
@@ -19,3 +20,7 @@ Identificar a plataforma mencionada e propor um experimento pequeno.
 ## Continuidade
 Nenhuma tarefa está assumida. Abrir uma Issue antes de executar; vinculá-la aqui. A captura não representa aprovação para execução nem conclusão.
 
+
+## Demo mosca-guia
+
+Demo jogável de um compartimento seco, com fuga, espera, retomada e descoberta da passagem. Publicação solicitada por Felipe, Issue #33. FlyBrain fornece telemetria; decisões de fuga e trajeto usam regras do jogo explicitamente indicadas.

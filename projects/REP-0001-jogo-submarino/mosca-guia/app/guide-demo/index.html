@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Mosca-guia · Colônia Abissal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="game" aria-label="Demo 3D da mosca-guia"></main>
+    <header>
+      <div class="eyebrow">maGbRAIN / REP-0001 × REP-0012</div>
+      <h1>Uma pista viva.</h1>
+      <p>Compartimento seco · Colônia Abissal</p>
+    </header>
+    <section class="status">
+      <span class="dot"></span><strong id="state">Explorando</strong
+      ><span id="mission">Observe a mosca âmbar. Ela conhece outra saída.</span>
+    </section>
+    <button
+      id="telemetryToggle"
+      aria-expanded="false"
+      aria-controls="telemetry"
+    >
+      Dados FlyBrain
+    </button>
+    <aside id="telemetry">
+      <h2>PERCEPÇÃO DA MOSCA</h2>
+      <div class="reading">
+        <span>Estímulo visual</span><output id="stimulus">0.00</output>
+      </div>
+      <meter id="stimulusMeter" min="0" max="0.5" value="0"></meter>
+      <div class="reading">
+        <span>Distância</span><output id="distance">5.0 m</output>
+      </div>
+      <div class="reading">
+        <span>VIS_R1R6 · disparos</span><output id="neural">—</output>
+      </div>
+      <div class="reading">
+        <span>GNG_DESC · disparos</span><output id="descending">—</output>
+      </div>
+      <p id="source">Reação · regra do jogo</p>
+      <p id="brainStatus">Primeira versão jogável</p>
+    </aside>
+    <div id="hint" role="status">
+      Aproxime-se devagar. Correr assusta a mosca.
+    </div>
+    <footer>
+      <div class="keyboard">
+        <b>W A S D / setas</b> mover devagar <span>·</span> <b>Shift</b> correr
+        <span>·</span> <b>E</b> investigar <span>·</span> arraste a cena para
+        girar
+      </div>
+      <div class="actions">
+        <button id="interact">Investigar · E</button
+        ><button id="reset">Reiniciar · R</button>
+      </div>
+    </footer>
+    <div class="touch-controls" aria-label="Controles de movimento">
+      <button data-key="ArrowUp" class="up" aria-label="Avançar">↑</button
+      ><button data-key="ArrowLeft" class="left" aria-label="Esquerda">←</button
+      ><button data-key="ArrowDown" class="down" aria-label="Recuar">↓</button
+      ><button data-key="ArrowRight" class="right" aria-label="Direita">
+        →</button
+      ><button data-key="Shift" class="run">Segurar<br />para correr</button>
+    </div>
+    <section id="found" hidden>
+      <div class="eyebrow">PASSAGEM DESCOBERTA</div>
+      <h2>O caminho estava vivo.</h2>
+      <p>
+        A mosca voltou ao abrigo e revelou a entrada de manutenção. Atravesse a
+        abertura ou reinicie para experimentar outra aproximação.
+      </p>
+      <button id="continue">Explorar passagem</button>
+      <button id="again">Repetir exploração</button>
+    </section>
+    <div id="error" hidden role="alert"></div>
+    <script src="../js/vendor/three.min.js"></script>
+    <script src="../js/vendor/OrbitControls.js"></script>
+    <script src="../guide-experiments/brain-adapter.js"></script>
+    <script src="game.js"></script>
+    <script src="brain-link.js"></script>
+  </body>
+</html>

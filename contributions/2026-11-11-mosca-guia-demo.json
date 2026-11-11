@@ -1,0 +1,32 @@
+{
+  "id": "2026-11-11-mosca-guia-demo",
+  "date": "2026-11-11",
+  "ideas": [
+    "REP-0001",
+    "REP-0012"
+  ],
+  "summary": "Demo jogável da mosca-guia e experimento comparativo FlyBrain, conduzidos por Felipe.",
+  "types": [
+    "code",
+    "research",
+    "test"
+  ],
+  "participants": [
+    "fkumagae"
+  ],
+  "attribution": "confirmed",
+  "attribution_source": "Felipe solicitou a demo, definiu seu comportamento e autorizou publicação no maGbRAIN.",
+  "tools": [
+    "Codex para implementação e verificação"
+  ],
+  "evidence": [
+    {
+      "label": "Demo e créditos",
+      "path": "projects/REP-0001-jogo-submarino/mosca-guia/README.md"
+    },
+    {
+      "label": "Experimento",
+      "path": "projects/REP-0001-jogo-submarino/mosca-guia/app/guide-experiments/REPORT.md"
+    }
+  ]
+}
