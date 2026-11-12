@@ -254,6 +254,14 @@
   cue.position.set(5.3, 0.02, -7.8);
   cue.visible = false;
   scene.add(cue);
+  // Bench objects visualize manual experimental currents, not neural decisions.
+  const foodSource = sphere(.3, -4.8, .4, 3, amber);
+  label("ODOR", -4.8, 1.1, 3, "#edb55e", 1);
+  const speaker = box(.5,.7,.4,4.8,.35,-1.5,metal);
+  label("VIBRAÇÃO", 4.8, 1, -1.5, "#aacbd7", 1.3);
+  const benchLamp = new T.PointLight(0xffdf9d,0,10);
+  benchLamp.position.set(0,3,-4);scene.add(benchLamp);
+  let labStimuli = {food:0,light:0,vibration:0,touch:0};
   const keys = new Set();
   let state,
     brain = null,
@@ -467,6 +475,9 @@
     }
   }
   function render() {
+    foodSource.scale.setScalar(1 + labStimuli.food * 2);
+    speaker.rotation.z = Math.sin(state.time * 40) * labStimuli.vibration * .2;
+    benchLamp.intensity = labStimuli.light * 6;
     const t = state.time,
       f = state.fly;
     playerMesh.position.set(state.player.x, 0, state.player.z);
@@ -545,6 +556,7 @@
       ["Enter", " "].includes(e.key)
     )
       return;
+    if (e.target.closest("#sensoryBench")) return;
     const key = e.key.length === 1 ? e.key.toLowerCase() : e.key;
     if (["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight", " "].includes(key))
       e.preventDefault();
@@ -592,6 +604,7 @@
     reset,
     snapshot: () => JSON.parse(JSON.stringify({ ...state, brain: brainInfo })),
     getSamples: () => state.samples.slice(),
+    setLabStimuli(values) { labStimuli = {...values}; },
     attachBrain(adapter) {
       brain = adapter;
     },

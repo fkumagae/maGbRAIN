@@ -1,0 +1,5263 @@
+{
+  "version": 1,
+  "workerSHA256": "b99a6932e549968b63449aab4630a9462c5d6606355cd56021f13a5445637b51",
+  "connectomeSHA256": "fbf8d440ca1207c7573e1acdd2366f9d0beb9b533c1710f21681264f81b1cc49",
+  "protocol": {
+    "steps": 100,
+    "start": 10,
+    "end": 70,
+    "current": 0.3,
+    "thresholds": [
+      1,
+      0.3
+    ],
+    "ablation": "All synaptic weights set to zero; input injection preserved.",
+    "indexMeaning": "Worker group-sorted index, valid only for the hashed connectome and worker. Not a FlyWire root_id.",
+    "candidateCriterion": "Any downstream spike or post-update potential >= 0.1. Deterministic model; these are not biological replications.",
+    "vibration": "Constant injection in this mapping run; pulsed in sweep.cjs."
+  },
+  "runs": [
+    {
+      "condition": "blank",
+      "source": null,
+      "threshold": 1,
+      "ablated": false,
+      "directSpikes": 0,
+      "downstreamSpikes": 0,
+      "candidates": []
+    },
+    {
+      "condition": "visual",
+      "source": "VIS_R1R6",
+      "threshold": 1,
+      "ablated": false,
+      "directSpikes": 114870,
+      "downstreamSpikes": 0,
+      "candidates": [
+        {
+          "sortedIndex": 114213,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.22661501169204712,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116130,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.2046048939228058,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116293,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.1924767643213272,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116057,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.14508749544620514,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116990,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.14486292004585266,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116369,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.1284676045179367,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114115,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.12217897176742554,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116744,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.12083141505718231,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116904,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.11858547478914261,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114640,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.11768711358308792,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115687,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.1170133501291275,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 66618,
+          "group": "VIS_ME",
+          "spikes": 0,
+          "peakV": 0.11701332777738571,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114559,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.11566575616598129,
+          "firstSpike": null
+        }
+      ]
+    },
+    {
+      "condition": "food",
+      "source": "OLF_ORN_FOOD",
+      "threshold": 1,
+      "ablated": false,
+      "directSpikes": 18510,
+      "downstreamSpikes": 7,
+      "candidates": [
+        {
+          "sortedIndex": 99987,
+          "group": "OLF_LN",
+          "spikes": 3,
+          "peakV": 0.9118444323539734,
+          "firstSpike": 26
+        },
+        {
+          "sortedIndex": 100133,
+          "group": "OLF_LN",
+          "spikes": 3,
+          "peakV": 0.8963684439659119,
+          "firstSpike": 26
+        },
+        {
+          "sortedIndex": 100555,
+          "group": "OLF_PN",
+          "spikes": 1,
+          "peakV": 0.9801364541053772,
+          "firstSpike": 62
+        },
+        {
+          "sortedIndex": 100437,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.9936642050743103,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99973,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.9444445967674255,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100136,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.89291912317276,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99809,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.8582543134689331,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100762,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.8451625108718872,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99823,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.7387717962265015,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100158,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.7232463955879211,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100785,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.722669243812561,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100267,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.7205009460449219,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99867,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.6300379037857056,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100145,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.592042863368988,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100097,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.5724514126777649,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100575,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.5608102679252625,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100452,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.5602988600730896,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100391,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.470298707485199,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100313,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.45248204469680786,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100356,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.44514545798301697,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100875,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.3761138617992401,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100846,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.3746262788772583,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100412,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.373196005821228,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100855,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.362569123506546,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100765,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.35515251755714417,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100185,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.3505097031593323,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100598,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.3446722626686096,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100811,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.31810542941093445,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100291,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.31585386395454407,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100521,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.31480857729911804,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100800,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.30507799983024597,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100063,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.3042158782482147,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100709,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.29981908202171326,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99989,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.29968342185020447,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100924,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.29960039258003235,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100854,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.29317519068717957,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100759,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2916761338710785,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100794,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2908480763435364,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99792,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.290230393409729,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100843,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.28883352875709534,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100868,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.28606054186820984,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100837,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.28126686811447144,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100669,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.27864590287208557,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100743,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2762507200241089,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100196,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.2635224461555481,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100449,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.26106172800064087,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100243,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2564872205257416,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100400,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.24803300201892853,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100652,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.24795162677764893,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100713,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.23963499069213867,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100380,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.23439987003803253,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100543,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.23417463898658752,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100757,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.23290376365184784,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100205,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.2257964015007019,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100422,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.22400088608264923,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100348,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.22010454535484314,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100712,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.22010178864002228,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100436,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.21905718743801117,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99881,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.2180795818567276,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99933,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.21406637132167816,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100867,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2002679854631424,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100245,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.19764691591262817,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100898,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.19764244556427002,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100303,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.19659346342086792,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100856,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1919553130865097,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100778,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1841646432876587,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100316,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1760815531015396,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99904,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.16438989341259003,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99884,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.16297610104084015,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100901,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.16036202013492584,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100747,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1599118709564209,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100258,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1578904539346695,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100426,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.15766598284244537,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100048,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.15556468069553375,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100456,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.15047775208950043,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100932,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.15002812445163727,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100756,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.15002809464931488,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100278,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1493559628725052,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99893,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.1492759883403778,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100515,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.14913028478622437,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100913,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1480073481798172,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100686,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.14800724387168884,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100017,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.14614543318748474,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100790,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.14546392858028412,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100573,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.14321036636829376,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100698,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1421699821949005,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100831,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.13984791934490204,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100407,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.13872987031936646,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100264,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.13864563405513763,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100272,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.13812510669231415,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100473,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.13700219988822937,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100816,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.13662311434745789,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100860,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1348312348127365,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100606,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.13415859639644623,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100464,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.13348478078842163,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99853,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.13241398334503174,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100379,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.13168905675411224,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100593,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.13161194324493408,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100414,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.13138726353645325,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100925,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.13116279244422913,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100284,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.13078749179840088,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100338,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.13071469962596893,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100684,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1304890364408493,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100635,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.12891630828380585,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100589,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.12854166328907013,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100673,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.12697051465511322,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100411,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1255478709936142,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100312,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.12180642783641815,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100442,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.12113483995199203,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100472,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.12060686945915222,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100508,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.12060681730508804,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100392,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.12038227915763855,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100771,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11940937489271164,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100681,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1188100278377533,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100558,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11873667687177658,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100251,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11866269260644913,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100522,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11656413227319717,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100171,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.1164151132106781,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100668,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11611498892307281,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100893,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1156657487154007,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100770,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11559397727251053,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100704,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11544116586446762,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100836,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11529277265071869,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100399,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11521656811237335,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100595,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11499203741550446,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100265,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11499201506376266,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100244,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11461137235164642,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100769,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11446667462587357,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100633,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11386898905038834,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99860,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.11286300420761108,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100486,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11274605244398117,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100487,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1126726046204567,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100483,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11267218738794327,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100776,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11162424087524414,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100610,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11005089432001114,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100688,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.10878058522939682,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100587,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.10802952945232391,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100696,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.10779904574155807,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100325,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.10579067468643188,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100435,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.10541284084320068,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100149,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.10535167902708054,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100096,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.10450735688209534,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100876,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.10308857262134552,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100319,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.10279428958892822,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100290,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.10241477191448212,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100538,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.10174094140529633,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100908,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.10099104791879654,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100285,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.10016881674528122,
+          "firstSpike": null
+        }
+      ]
+    },
+    {
+      "condition": "vibration",
+      "source": "MECH_JO",
+      "threshold": 1,
+      "ablated": false,
+      "directSpikes": 8790,
+      "downstreamSpikes": 0,
+      "candidates": [
+        {
+          "sortedIndex": 129742,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1639534831047058,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 113724,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.11656418442726135,
+          "firstSpike": null
+        }
+      ]
+    },
+    {
+      "condition": "touch",
+      "source": "MECH_BRISTLE",
+      "threshold": 1,
+      "ablated": false,
+      "directSpikes": 19270,
+      "downstreamSpikes": 0,
+      "candidates": [
+        {
+          "sortedIndex": 115534,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.6510978937149048,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114573,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.5965216159820557,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116116,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.5671002268791199,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116998,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.5210586190223694,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115886,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.4936571717262268,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115847,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.49208539724349976,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114976,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.46468496322631836,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116378,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.39663374423980713,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116418,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.36810919642448425,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116842,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.36788588762283325,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 137371,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.3548581600189209,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114110,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.3283573091030121,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 133989,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.2948920726776123,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 138831,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.2661435306072235,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 128312,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.26457157731056213,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 118676,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.2562616765499115,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 138420,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.2533417046070099,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115595,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.2504223883152008,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115339,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.2504221200942993,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 128535,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.24974879622459412,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116517,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.238968163728714,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 132989,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.23425166308879852,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116826,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.2279638797044754,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115950,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.22369574010372162,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114081,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.2084234356880188,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 124895,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.2057279646396637,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114557,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.20213481783866882,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116743,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.20011425018310547,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 132067,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.19966381788253784,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 138847,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1944989413022995,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 134493,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.18281929194927216,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116997,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.1825949251651764,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 133665,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.17787837982177734,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115850,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.1751832216978073,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 126831,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1747342348098755,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115095,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.1722635179758072,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115959,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.1675470918416977,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 133651,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.16687315702438354,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 121101,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.16687306761741638,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114017,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.1614832729101181,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 129101,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.15564410388469696,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 118948,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.15362216532230377,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114357,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.15339778363704681,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115880,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.15227487683296204,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114147,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.15182559192180634,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 129805,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.15070243179798126,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116476,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.14621055126190186,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 117855,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.13498084247112274,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 136983,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.13363328576087952,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 113755,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.13026437163352966,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 118951,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.12981517612934113,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 133431,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.12734462320804596,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116524,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.1255478858947754,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115183,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.12464956194162369,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 119359,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.12442489713430405,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 132484,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.12397577613592148,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116443,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.12128062546253204,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 126843,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.12060688436031342,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114489,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.12060681730508804,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 131951,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11993306130170822,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 138118,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11993306130170822,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 117041,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.11970850080251694,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 136197,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11858547478914261,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 122028,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11768714338541031,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 135113,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11589039117097855,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 122721,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1156657487154007,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115849,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.11544119566679001,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 125359,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11341988295316696,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 121628,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11274603754281998,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 119298,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11162306368350983,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 118669,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11072470247745514,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 130050,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10847873240709305,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 131683,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1080295518040657,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 122683,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10735579580068588,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 128152,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10690660774707794,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116014,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.10466066747903824,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 126603,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10466066747903824,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 133960,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10376230627298355,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115299,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.10263939946889877,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 120805,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10196554660797119,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 123304,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10106721520423889,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 117060,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.10084263235330582,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116757,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.10061803460121155,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114808,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.10039341449737549,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 119161,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10039333254098892,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116113,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.10016878694295883,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 136087,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10016878694295883,
+          "firstSpike": null
+        }
+      ]
+    },
+    {
+      "condition": "blank",
+      "source": null,
+      "threshold": 1,
+      "ablated": true,
+      "directSpikes": 0,
+      "downstreamSpikes": 0,
+      "candidates": []
+    },
+    {
+      "condition": "visual",
+      "source": "VIS_R1R6",
+      "threshold": 1,
+      "ablated": true,
+      "directSpikes": 114870,
+      "downstreamSpikes": 0,
+      "candidates": []
+    },
+    {
+      "condition": "food",
+      "source": "OLF_ORN_FOOD",
+      "threshold": 1,
+      "ablated": true,
+      "directSpikes": 18510,
+      "downstreamSpikes": 0,
+      "candidates": []
+    },
+    {
+      "condition": "vibration",
+      "source": "MECH_JO",
+      "threshold": 1,
+      "ablated": true,
+      "directSpikes": 8790,
+      "downstreamSpikes": 0,
+      "candidates": []
+    },
+    {
+      "condition": "touch",
+      "source": "MECH_BRISTLE",
+      "threshold": 1,
+      "ablated": true,
+      "directSpikes": 19270,
+      "downstreamSpikes": 0,
+      "candidates": []
+    },
+    {
+      "condition": "blank",
+      "source": null,
+      "threshold": 0.3,
+      "ablated": false,
+      "directSpikes": 0,
+      "downstreamSpikes": 0,
+      "candidates": []
+    },
+    {
+      "condition": "visual",
+      "source": "VIS_R1R6",
+      "threshold": 0.3,
+      "ablated": false,
+      "directSpikes": 229740,
+      "downstreamSpikes": 5,
+      "candidates": [
+        {
+          "sortedIndex": 116130,
+          "group": "GNG_DESC",
+          "spikes": 2,
+          "peakV": 0.2986488342285156,
+          "firstSpike": 38
+        },
+        {
+          "sortedIndex": 114213,
+          "group": "GNG_DESC",
+          "spikes": 2,
+          "peakV": 0.2909684479236603,
+          "firstSpike": 32
+        },
+        {
+          "sortedIndex": 116293,
+          "group": "GNG_DESC",
+          "spikes": 1,
+          "peakV": 0.2943274676799774,
+          "firstSpike": 41
+        },
+        {
+          "sortedIndex": 116057,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.269481897354126,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116990,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.2690648138523102,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116369,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.238612562417984,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114115,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.22693216800689697,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116744,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.22442924976348877,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116904,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.22025789320468903,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114640,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.21858905255794525,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 66618,
+          "group": "VIS_ME",
+          "spikes": 0,
+          "peakV": 0.21733754873275757,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115687,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.21733754873275757,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114559,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.21483469009399414,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 117282,
+          "group": "MN_HEAD",
+          "spikes": 0,
+          "peakV": 0.18229657411575317,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 21566,
+          "group": "VIS_ME",
+          "spikes": 0,
+          "peakV": 0.17478810250759125,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 88554,
+          "group": "VIS_ME",
+          "spikes": 0,
+          "peakV": 0.15351305902004242,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 139243,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.14600422978401184,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 64673,
+          "group": "VIS_ME",
+          "spikes": 0,
+          "peakV": 0.13557538390159607,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 113820,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.13390663266181946,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115864,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.13140374422073364,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116813,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.12764936685562134,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 67001,
+          "group": "VIS_ME",
+          "spikes": 0,
+          "peakV": 0.12681502103805542,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114965,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.1247292309999466,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 23752,
+          "group": "VIS_ME",
+          "spikes": 0,
+          "peakV": 0.11263179779052734,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 40050,
+          "group": "VIS_ME",
+          "spikes": 0,
+          "peakV": 0.11096315830945969,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 132589,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10637444257736206,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 68392,
+          "group": "VIS_ME",
+          "spikes": 0,
+          "peakV": 0.10637440532445908,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 71201,
+          "group": "VIS_ME",
+          "spikes": 0,
+          "peakV": 0.10554009675979614,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 35754,
+          "group": "VIS_ME",
+          "spikes": 0,
+          "peakV": 0.1005343347787857,
+          "firstSpike": null
+        }
+      ]
+    },
+    {
+      "condition": "food",
+      "source": "OLF_ORN_FOOD",
+      "threshold": 0.3,
+      "ablated": false,
+      "directSpikes": 37019,
+      "downstreamSpikes": 340,
+      "candidates": [
+        {
+          "sortedIndex": 100133,
+          "group": "OLF_LN",
+          "spikes": 20,
+          "peakV": 0.04153846204280853,
+          "firstSpike": 11
+        },
+        {
+          "sortedIndex": 99987,
+          "group": "OLF_LN",
+          "spikes": 20,
+          "peakV": 0.03642411530017853,
+          "firstSpike": 11
+        },
+        {
+          "sortedIndex": 100555,
+          "group": "OLF_PN",
+          "spikes": 10,
+          "peakV": 0.2880561649799347,
+          "firstSpike": 14
+        },
+        {
+          "sortedIndex": 100437,
+          "group": "OLF_PN",
+          "spikes": 10,
+          "peakV": 0.27742207050323486,
+          "firstSpike": 14
+        },
+        {
+          "sortedIndex": 99973,
+          "group": "OLF_LN",
+          "spikes": 10,
+          "peakV": 0.25969064235687256,
+          "firstSpike": 14
+        },
+        {
+          "sortedIndex": 100136,
+          "group": "OLF_LN",
+          "spikes": 10,
+          "peakV": 0.2466738373041153,
+          "firstSpike": 14
+        },
+        {
+          "sortedIndex": 99809,
+          "group": "OLF_LN",
+          "spikes": 10,
+          "peakV": 0.23908337950706482,
+          "firstSpike": 14
+        },
+        {
+          "sortedIndex": 100762,
+          "group": "OLF_PN",
+          "spikes": 10,
+          "peakV": 0.23282741010189056,
+          "firstSpike": 14
+        },
+        {
+          "sortedIndex": 99823,
+          "group": "OLF_LN",
+          "spikes": 10,
+          "peakV": 0.21931211650371552,
+          "firstSpike": 14
+        },
+        {
+          "sortedIndex": 100785,
+          "group": "OLF_PN",
+          "spikes": 10,
+          "peakV": 0.20511335134506226,
+          "firstSpike": 14
+        },
+        {
+          "sortedIndex": 100158,
+          "group": "OLF_LN",
+          "spikes": 10,
+          "peakV": 0.20217283070087433,
+          "firstSpike": 14
+        },
+        {
+          "sortedIndex": 100267,
+          "group": "OLF_PN",
+          "spikes": 10,
+          "peakV": 0.19958432018756866,
+          "firstSpike": 14
+        },
+        {
+          "sortedIndex": 99867,
+          "group": "OLF_LN",
+          "spikes": 10,
+          "peakV": 0.17763014137744904,
+          "firstSpike": 14
+        },
+        {
+          "sortedIndex": 100145,
+          "group": "OLF_LN",
+          "spikes": 10,
+          "peakV": 0.17076316475868225,
+          "firstSpike": 14
+        },
+        {
+          "sortedIndex": 100097,
+          "group": "OLF_LN",
+          "spikes": 8,
+          "peakV": 0.29876118898391724,
+          "firstSpike": 14
+        },
+        {
+          "sortedIndex": 100452,
+          "group": "OLF_PN",
+          "spikes": 6,
+          "peakV": 0.2936241626739502,
+          "firstSpike": 17
+        },
+        {
+          "sortedIndex": 100575,
+          "group": "OLF_PN",
+          "spikes": 6,
+          "peakV": 0.29199278354644775,
+          "firstSpike": 17
+        },
+        {
+          "sortedIndex": 100313,
+          "group": "OLF_PN",
+          "spikes": 6,
+          "peakV": 0.2523338198661804,
+          "firstSpike": 17
+        },
+        {
+          "sortedIndex": 100391,
+          "group": "OLF_PN",
+          "spikes": 6,
+          "peakV": 0.24643616378307343,
+          "firstSpike": 17
+        },
+        {
+          "sortedIndex": 100356,
+          "group": "OLF_PN",
+          "spikes": 6,
+          "peakV": 0.22971004247665405,
+          "firstSpike": 17
+        },
+        {
+          "sortedIndex": 100846,
+          "group": "OLF_PN",
+          "spikes": 5,
+          "peakV": 0.29508644342422485,
+          "firstSpike": 20
+        },
+        {
+          "sortedIndex": 100875,
+          "group": "OLF_PN",
+          "spikes": 5,
+          "peakV": 0.2675218880176544,
+          "firstSpike": 20
+        },
+        {
+          "sortedIndex": 100412,
+          "group": "OLF_PN",
+          "spikes": 5,
+          "peakV": 0.26672011613845825,
+          "firstSpike": 20
+        },
+        {
+          "sortedIndex": 100855,
+          "group": "OLF_PN",
+          "spikes": 5,
+          "peakV": 0.2653539478778839,
+          "firstSpike": 20
+        },
+        {
+          "sortedIndex": 100765,
+          "group": "OLF_PN",
+          "spikes": 5,
+          "peakV": 0.25234612822532654,
+          "firstSpike": 20
+        },
+        {
+          "sortedIndex": 100598,
+          "group": "OLF_PN",
+          "spikes": 4,
+          "peakV": 0.29926198720932007,
+          "firstSpike": 20
+        },
+        {
+          "sortedIndex": 100811,
+          "group": "OLF_PN",
+          "spikes": 4,
+          "peakV": 0.29586073756217957,
+          "firstSpike": 23
+        },
+        {
+          "sortedIndex": 100521,
+          "group": "OLF_PN",
+          "spikes": 4,
+          "peakV": 0.295188844203949,
+          "firstSpike": 23
+        },
+        {
+          "sortedIndex": 100291,
+          "group": "OLF_PN",
+          "spikes": 4,
+          "peakV": 0.2922818064689636,
+          "firstSpike": 23
+        },
+        {
+          "sortedIndex": 100800,
+          "group": "OLF_PN",
+          "spikes": 4,
+          "peakV": 0.2740829885005951,
+          "firstSpike": 23
+        },
+        {
+          "sortedIndex": 100843,
+          "group": "OLF_PN",
+          "spikes": 4,
+          "peakV": 0.27019140124320984,
+          "firstSpike": 23
+        },
+        {
+          "sortedIndex": 100759,
+          "group": "OLF_PN",
+          "spikes": 4,
+          "peakV": 0.2658784091472626,
+          "firstSpike": 23
+        },
+        {
+          "sortedIndex": 100709,
+          "group": "OLF_PN",
+          "spikes": 4,
+          "peakV": 0.2653680741786957,
+          "firstSpike": 23
+        },
+        {
+          "sortedIndex": 100854,
+          "group": "OLF_PN",
+          "spikes": 4,
+          "peakV": 0.2653064727783203,
+          "firstSpike": 23
+        },
+        {
+          "sortedIndex": 100868,
+          "group": "OLF_PN",
+          "spikes": 4,
+          "peakV": 0.26413223147392273,
+          "firstSpike": 23
+        },
+        {
+          "sortedIndex": 100743,
+          "group": "OLF_PN",
+          "spikes": 3,
+          "peakV": 0.29834553599357605,
+          "firstSpike": 26
+        },
+        {
+          "sortedIndex": 100924,
+          "group": "OLF_PN",
+          "spikes": 3,
+          "peakV": 0.2979201376438141,
+          "firstSpike": 26
+        },
+        {
+          "sortedIndex": 100196,
+          "group": "OLF_LN",
+          "spikes": 3,
+          "peakV": 0.2948963940143585,
+          "firstSpike": 26
+        },
+        {
+          "sortedIndex": 100794,
+          "group": "OLF_PN",
+          "spikes": 3,
+          "peakV": 0.29363319277763367,
+          "firstSpike": 26
+        },
+        {
+          "sortedIndex": 100669,
+          "group": "OLF_PN",
+          "spikes": 3,
+          "peakV": 0.28939875960350037,
+          "firstSpike": 26
+        },
+        {
+          "sortedIndex": 100449,
+          "group": "OLF_PN",
+          "spikes": 3,
+          "peakV": 0.28354519605636597,
+          "firstSpike": 26
+        },
+        {
+          "sortedIndex": 100243,
+          "group": "OLF_PN",
+          "spikes": 3,
+          "peakV": 0.2776356637477875,
+          "firstSpike": 26
+        },
+        {
+          "sortedIndex": 100837,
+          "group": "OLF_PN",
+          "spikes": 3,
+          "peakV": 0.2716180086135864,
+          "firstSpike": 26
+        },
+        {
+          "sortedIndex": 100185,
+          "group": "OLF_LN",
+          "spikes": 3,
+          "peakV": 0.2563537657260895,
+          "firstSpike": 26
+        },
+        {
+          "sortedIndex": 100380,
+          "group": "OLF_PN",
+          "spikes": 2,
+          "peakV": 0.2997114360332489,
+          "firstSpike": 29
+        },
+        {
+          "sortedIndex": 100436,
+          "group": "OLF_PN",
+          "spikes": 2,
+          "peakV": 0.29954370856285095,
+          "firstSpike": 32
+        },
+        {
+          "sortedIndex": 100422,
+          "group": "OLF_PN",
+          "spikes": 2,
+          "peakV": 0.29742953181266785,
+          "firstSpike": 32
+        },
+        {
+          "sortedIndex": 99910,
+          "group": "OLF_LN",
+          "spikes": 2,
+          "peakV": 0.29663151502609253,
+          "firstSpike": 36
+        },
+        {
+          "sortedIndex": 100063,
+          "group": "OLF_LN",
+          "spikes": 2,
+          "peakV": 0.2962755858898163,
+          "firstSpike": 35
+        },
+        {
+          "sortedIndex": 100757,
+          "group": "OLF_PN",
+          "spikes": 2,
+          "peakV": 0.2960883378982544,
+          "firstSpike": 32
+        },
+        {
+          "sortedIndex": 100543,
+          "group": "OLF_PN",
+          "spikes": 2,
+          "peakV": 0.2949788272380829,
+          "firstSpike": 32
+        },
+        {
+          "sortedIndex": 100400,
+          "group": "OLF_PN",
+          "spikes": 2,
+          "peakV": 0.29191920161247253,
+          "firstSpike": 29
+        },
+        {
+          "sortedIndex": 100856,
+          "group": "OLF_PN",
+          "spikes": 2,
+          "peakV": 0.29146361351013184,
+          "firstSpike": 38
+        },
+        {
+          "sortedIndex": 100867,
+          "group": "OLF_PN",
+          "spikes": 2,
+          "peakV": 0.2913492023944855,
+          "firstSpike": 35
+        },
+        {
+          "sortedIndex": 100898,
+          "group": "OLF_PN",
+          "spikes": 2,
+          "peakV": 0.2908935546875,
+          "firstSpike": 38
+        },
+        {
+          "sortedIndex": 99933,
+          "group": "OLF_LN",
+          "spikes": 2,
+          "peakV": 0.29077982902526855,
+          "firstSpike": 35
+        },
+        {
+          "sortedIndex": 100171,
+          "group": "OLF_LN",
+          "spikes": 2,
+          "peakV": 0.29007408022880554,
+          "firstSpike": 39
+        },
+        {
+          "sortedIndex": 100245,
+          "group": "OLF_PN",
+          "spikes": 2,
+          "peakV": 0.2883579432964325,
+          "firstSpike": 38
+        },
+        {
+          "sortedIndex": 100348,
+          "group": "OLF_PN",
+          "spikes": 2,
+          "peakV": 0.2880752384662628,
+          "firstSpike": 32
+        },
+        {
+          "sortedIndex": 100713,
+          "group": "OLF_PN",
+          "spikes": 2,
+          "peakV": 0.28669869899749756,
+          "firstSpike": 29
+        },
+        {
+          "sortedIndex": 100712,
+          "group": "OLF_PN",
+          "spikes": 2,
+          "peakV": 0.2851910889148712,
+          "firstSpike": 32
+        },
+        {
+          "sortedIndex": 99989,
+          "group": "OLF_LN",
+          "spikes": 2,
+          "peakV": 0.2844911515712738,
+          "firstSpike": 38
+        },
+        {
+          "sortedIndex": 99881,
+          "group": "OLF_LN",
+          "spikes": 2,
+          "peakV": 0.2817956209182739,
+          "firstSpike": 32
+        },
+        {
+          "sortedIndex": 100652,
+          "group": "OLF_PN",
+          "spikes": 2,
+          "peakV": 0.2817184627056122,
+          "firstSpike": 29
+        },
+        {
+          "sortedIndex": 99792,
+          "group": "OLF_LN",
+          "spikes": 2,
+          "peakV": 0.2796904146671295,
+          "firstSpike": 38
+        },
+        {
+          "sortedIndex": 100901,
+          "group": "OLF_PN",
+          "spikes": 1,
+          "peakV": 0.2996060848236084,
+          "firstSpike": 59
+        },
+        {
+          "sortedIndex": 100316,
+          "group": "OLF_PN",
+          "spikes": 1,
+          "peakV": 0.29950791597366333,
+          "firstSpike": 50
+        },
+        {
+          "sortedIndex": 100747,
+          "group": "OLF_PN",
+          "spikes": 1,
+          "peakV": 0.2989901006221771,
+          "firstSpike": 68
+        },
+        {
+          "sortedIndex": 100017,
+          "group": "OLF_LN",
+          "spikes": 1,
+          "peakV": 0.2973324954509735,
+          "firstSpike": 47
+        },
+        {
+          "sortedIndex": 100778,
+          "group": "OLF_PN",
+          "spikes": 1,
+          "peakV": 0.2967164218425751,
+          "firstSpike": 47
+        },
+        {
+          "sortedIndex": 99904,
+          "group": "OLF_LN",
+          "spikes": 1,
+          "peakV": 0.29668331146240234,
+          "firstSpike": 47
+        },
+        {
+          "sortedIndex": 100303,
+          "group": "OLF_PN",
+          "spikes": 1,
+          "peakV": 0.29445210099220276,
+          "firstSpike": 41
+        },
+        {
+          "sortedIndex": 99860,
+          "group": "OLF_LN",
+          "spikes": 1,
+          "peakV": 0.27477967739105225,
+          "firstSpike": 45
+        },
+        {
+          "sortedIndex": 99884,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.2999938726425171,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100426,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2977956235408783,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100258,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.29487544298171997,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100932,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.28635355830192566,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100048,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.2853769063949585,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100456,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2795005142688751,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100686,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2774267792701721,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100913,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2773342430591583,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100515,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.27676424384117126,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99893,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.2726597189903259,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100756,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.27211451530456543,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100790,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2719840407371521,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100278,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.27007392048835754,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100831,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.26632559299468994,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100407,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2658585011959076,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100698,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2647550702095032,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100473,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.25856873393058777,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99853,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.2569219172000885,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100272,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.25672152638435364,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100464,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.25152578949928284,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100573,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2498633712530136,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100860,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.24799926578998566,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100816,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.24785949289798737,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100264,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2478422224521637,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100379,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.24675992131233215,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100414,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.24670839309692383,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100338,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.24580229818820953,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100593,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2438613325357437,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100925,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2434723973274231,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100635,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.24247503280639648,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100606,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.24223153293132782,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100284,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2407868206501007,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100684,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2392410784959793,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100589,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2386934906244278,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100411,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.23389938473701477,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100003,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.2324732393026352,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100681,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.23220194876194,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100442,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.23081649839878082,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100508,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.22934816777706146,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100251,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2291448712348938,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100673,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2275165468454361,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100392,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.22480687499046326,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100472,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2247525155544281,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100134,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.2244241088628769,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100558,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.22383442521095276,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100770,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.22326868772506714,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100312,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.22297169268131256,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100771,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2222975343465805,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100587,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.22124634683132172,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100668,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.21908462047576904,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100704,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2173984944820404,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100522,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.21739336848258972,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100399,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2172805219888687,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100595,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.21596336364746094,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100265,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.21570321917533875,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100893,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.21534116566181183,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100836,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2149057239294052,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100486,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.21391689777374268,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100633,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.21385544538497925,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100205,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.21248728036880493,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100483,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.21243774890899658,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100776,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2100170999765396,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100769,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.20862504839897156,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100688,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.20480015873908997,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100325,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.20380669832229614,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100435,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.20328202843666077,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100487,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2032264769077301,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100244,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.2024718075990677,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100149,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.19861575961112976,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100610,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.19778986275196075,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100319,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1961311399936676,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100876,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1936943680047989,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100096,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.1927913874387741,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100147,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.19235797226428986,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100290,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1920165717601776,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100125,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.19113005697727203,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99859,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.18985185027122498,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100289,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.18900980055332184,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100300,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.18882104754447937,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100285,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.18837198615074158,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100725,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1875128448009491,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100908,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1874510645866394,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 124949,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.18591246008872986,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100696,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.18580709397792816,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100538,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.18492022156715393,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100821,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1837419718503952,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100466,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.18352098762989044,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100641,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.18222150206565857,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100283,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.18119627237319946,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 119603,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.18096014857292175,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100666,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.18081919848918915,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100139,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.18060064315795898,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100072,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.17941702902317047,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100441,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.17706410586833954,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100306,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.17175103724002838,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99957,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.17102153599262238,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99873,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.1708148568868637,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100766,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.17016121745109558,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99844,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.1697089672088623,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100275,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.16696034371852875,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100286,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.16593268513679504,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99833,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.16348186135292053,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100700,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.16269853711128235,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100135,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.16265013813972473,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99977,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.15959422290325165,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100297,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1577254980802536,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100478,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.15590806305408478,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99945,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.1532038152217865,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100175,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.1526513248682022,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100160,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.15239836275577545,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99817,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.15087848901748657,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99921,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.1495566964149475,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99851,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.14798559248447418,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100653,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.14754976332187653,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100780,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.14476940035820007,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100386,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.14101533591747284,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100071,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.14069002866744995,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100517,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.13929277658462524,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99819,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.1383916437625885,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100276,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.13825723528862,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100477,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.13759109377861023,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100764,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1368524432182312,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99865,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.1347198784351349,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100492,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.13435783982276917,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100034,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.13243959844112396,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100618,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1314348727464676,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100074,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.13143296539783478,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99846,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.1299174576997757,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100462,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.12948861718177795,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100719,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.12920884788036346,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100783,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.12865129113197327,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100180,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.12818633019924164,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100427,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.12810367345809937,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100455,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.12713299691677094,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99988,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.1258564293384552,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100419,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.12572628259658813,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99826,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.12223696708679199,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100714,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1221735030412674,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100155,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.12082555890083313,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100339,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.1195792406797409,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100238,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.11943216621875763,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100200,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.11894766241312027,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100008,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.11840025335550308,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100274,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11800765991210938,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99993,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.11576301604509354,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100113,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.11559312790632248,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99991,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.1151643842458725,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100114,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.11385398358106613,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100107,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.11343979090452194,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100095,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.11327017843723297,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100132,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.11267145723104477,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 137116,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11145772784948349,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100350,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11095481365919113,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100395,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11089739203453064,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100889,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.11044221371412277,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100220,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.10999186336994171,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99939,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.10668893903493881,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100304,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.10517626255750656,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100174,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.10493090003728867,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100444,
+          "group": "OLF_PN",
+          "spikes": 0,
+          "peakV": 0.10393748432397842,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 100077,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.10323033481836319,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99862,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.10313330590724945,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 122763,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10265456140041351,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 99943,
+          "group": "OLF_LN",
+          "spikes": 0,
+          "peakV": 0.10096841305494308,
+          "firstSpike": null
+        }
+      ]
+    },
+    {
+      "condition": "vibration",
+      "source": "MECH_JO",
+      "threshold": 0.3,
+      "ablated": false,
+      "directSpikes": 17580,
+      "downstreamSpikes": 1,
+      "candidates": [
+        {
+          "sortedIndex": 129742,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 1,
+          "peakV": 0.2992231547832489,
+          "firstSpike": 65
+        },
+        {
+          "sortedIndex": 113724,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.21650366485118866,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 138214,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.17687396705150604,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 137401,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.15768451988697052,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 124800,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.13849540054798126,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 130202,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.13724400103092194,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 125940,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.13599252700805664,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 139238,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.13348951935768127,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116089,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.1326553076505661,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 133018,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.12931792438030243,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 123491,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.12347780168056488,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 120891,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.12014053761959076,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 129010,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11805474758148193,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 129789,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11763769388198853,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 124240,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11012890934944153,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 130632,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10929461568593979,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115864,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.10734841227531433,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 117124,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.10554009675979614,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 119879,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10470592230558395,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 131102,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10428880900144577,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 120193,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10428870469331741,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 134420,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10345451533794403,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 137671,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10220293700695038,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 131771,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10136868804693222,
+          "firstSpike": null
+        }
+      ]
+    },
+    {
+      "condition": "touch",
+      "source": "MECH_BRISTLE",
+      "threshold": 0.3,
+      "ablated": false,
+      "directSpikes": 38540,
+      "downstreamSpikes": 124,
+      "candidates": [
+        {
+          "sortedIndex": 115534,
+          "group": "GNG_DESC",
+          "spikes": 10,
+          "peakV": 0.18081088364124298,
+          "firstSpike": 14
+        },
+        {
+          "sortedIndex": 114573,
+          "group": "GNG_DESC",
+          "spikes": 9,
+          "peakV": 0.2980019748210907,
+          "firstSpike": 14
+        },
+        {
+          "sortedIndex": 116116,
+          "group": "GNG_DESC",
+          "spikes": 6,
+          "peakV": 0.29667341709136963,
+          "firstSpike": 17
+        },
+        {
+          "sortedIndex": 116998,
+          "group": "GNG_DESC",
+          "spikes": 6,
+          "peakV": 0.2694353759288788,
+          "firstSpike": 17
+        },
+        {
+          "sortedIndex": 115886,
+          "group": "GNG_DESC",
+          "spikes": 6,
+          "peakV": 0.25462645292282104,
+          "firstSpike": 17
+        },
+        {
+          "sortedIndex": 115847,
+          "group": "GNG_DESC",
+          "spikes": 6,
+          "peakV": 0.25454744696617126,
+          "firstSpike": 17
+        },
+        {
+          "sortedIndex": 114976,
+          "group": "GNG_DESC",
+          "spikes": 6,
+          "peakV": 0.23968254029750824,
+          "firstSpike": 17
+        },
+        {
+          "sortedIndex": 116378,
+          "group": "GNG_DESC",
+          "spikes": 5,
+          "peakV": 0.28554919362068176,
+          "firstSpike": 20
+        },
+        {
+          "sortedIndex": 116418,
+          "group": "GNG_DESC",
+          "spikes": 5,
+          "peakV": 0.2664772570133209,
+          "firstSpike": 20
+        },
+        {
+          "sortedIndex": 116842,
+          "group": "GNG_DESC",
+          "spikes": 5,
+          "peakV": 0.26485252380371094,
+          "firstSpike": 20
+        },
+        {
+          "sortedIndex": 137371,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 5,
+          "peakV": 0.25575539469718933,
+          "firstSpike": 20
+        },
+        {
+          "sortedIndex": 114110,
+          "group": "GNG_DESC",
+          "spikes": 4,
+          "peakV": 0.29386427998542786,
+          "firstSpike": 23
+        },
+        {
+          "sortedIndex": 133989,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 4,
+          "peakV": 0.263914555311203,
+          "firstSpike": 23
+        },
+        {
+          "sortedIndex": 128312,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 3,
+          "peakV": 0.2785215675830841,
+          "firstSpike": 26
+        },
+        {
+          "sortedIndex": 138831,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 3,
+          "peakV": 0.2781234383583069,
+          "firstSpike": 26
+        },
+        {
+          "sortedIndex": 118676,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 3,
+          "peakV": 0.26935502886772156,
+          "firstSpike": 26
+        },
+        {
+          "sortedIndex": 116517,
+          "group": "GNG_DESC",
+          "spikes": 2,
+          "peakV": 0.29992783069610596,
+          "firstSpike": 32
+        },
+        {
+          "sortedIndex": 124895,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 2,
+          "peakV": 0.2999158203601837,
+          "firstSpike": 35
+        },
+        {
+          "sortedIndex": 138420,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 2,
+          "peakV": 0.29733946919441223,
+          "firstSpike": 29
+        },
+        {
+          "sortedIndex": 114557,
+          "group": "GNG_DESC",
+          "spikes": 2,
+          "peakV": 0.297024667263031,
+          "firstSpike": 38
+        },
+        {
+          "sortedIndex": 115339,
+          "group": "GNG_DESC",
+          "spikes": 2,
+          "peakV": 0.2950296700000763,
+          "firstSpike": 29
+        },
+        {
+          "sortedIndex": 115595,
+          "group": "GNG_DESC",
+          "spikes": 2,
+          "peakV": 0.2934824526309967,
+          "firstSpike": 29
+        },
+        {
+          "sortedIndex": 128535,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 2,
+          "peakV": 0.29312241077423096,
+          "firstSpike": 29
+        },
+        {
+          "sortedIndex": 138847,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 2,
+          "peakV": 0.293106347322464,
+          "firstSpike": 38
+        },
+        {
+          "sortedIndex": 116826,
+          "group": "GNG_DESC",
+          "spikes": 2,
+          "peakV": 0.2919122576713562,
+          "firstSpike": 32
+        },
+        {
+          "sortedIndex": 132067,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 2,
+          "peakV": 0.2914367914199829,
+          "firstSpike": 38
+        },
+        {
+          "sortedIndex": 114081,
+          "group": "GNG_DESC",
+          "spikes": 2,
+          "peakV": 0.2899983525276184,
+          "firstSpike": 35
+        },
+        {
+          "sortedIndex": 116743,
+          "group": "GNG_DESC",
+          "spikes": 2,
+          "peakV": 0.28750577569007874,
+          "firstSpike": 38
+        },
+        {
+          "sortedIndex": 115950,
+          "group": "GNG_DESC",
+          "spikes": 2,
+          "peakV": 0.287284791469574,
+          "firstSpike": 32
+        },
+        {
+          "sortedIndex": 132989,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 2,
+          "peakV": 0.27493396401405334,
+          "firstSpike": 29
+        },
+        {
+          "sortedIndex": 115095,
+          "group": "GNG_DESC",
+          "spikes": 1,
+          "peakV": 0.2994973957538605,
+          "firstSpike": 53
+        },
+        {
+          "sortedIndex": 134493,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 1,
+          "peakV": 0.29901352524757385,
+          "firstSpike": 47
+        },
+        {
+          "sortedIndex": 133665,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 1,
+          "peakV": 0.29873692989349365,
+          "firstSpike": 53
+        },
+        {
+          "sortedIndex": 115959,
+          "group": "GNG_DESC",
+          "spikes": 1,
+          "peakV": 0.2984139621257782,
+          "firstSpike": 59
+        },
+        {
+          "sortedIndex": 115850,
+          "group": "GNG_DESC",
+          "spikes": 1,
+          "peakV": 0.2973332405090332,
+          "firstSpike": 59
+        },
+        {
+          "sortedIndex": 133651,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 1,
+          "peakV": 0.29721394181251526,
+          "firstSpike": 59
+        },
+        {
+          "sortedIndex": 121101,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 1,
+          "peakV": 0.29721328616142273,
+          "firstSpike": 59
+        },
+        {
+          "sortedIndex": 114017,
+          "group": "GNG_DESC",
+          "spikes": 1,
+          "peakV": 0.2971068024635315,
+          "firstSpike": 65
+        },
+        {
+          "sortedIndex": 116997,
+          "group": "GNG_DESC",
+          "spikes": 1,
+          "peakV": 0.29567843675613403,
+          "firstSpike": 50
+        },
+        {
+          "sortedIndex": 126831,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 1,
+          "peakV": 0.2946076989173889,
+          "firstSpike": 53
+        },
+        {
+          "sortedIndex": 114357,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.29245179891586304,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 129101,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.29049795866012573,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 118948,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.2850545346736908,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115880,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.2780171036720276,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114147,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.2773818373680115,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 129805,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.2661336362361908,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116476,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.26402971148490906,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 117855,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.2507101595401764,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 136983,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.24608033895492554,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 118951,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.24111564457416534,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116524,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.23412171006202698,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 113755,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.2312883734703064,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 133431,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.22915036976337433,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 132484,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.22730615735054016,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115183,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.22716552019119263,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116443,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.22526386380195618,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114489,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.22474625706672668,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 138118,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.22461611032485962,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 126843,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.22422222793102264,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 131951,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.22244587540626526,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 119359,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.22190938889980316,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 136197,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.22025762498378754,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 117041,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.2197112739086151,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 122028,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.21798859536647797,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 122721,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.21455788612365723,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115849,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.21453675627708435,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 125359,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.21138112246990204,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 121628,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.20888751745224,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 119298,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.20766408741474152,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 135113,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.20195576548576355,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 130050,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.20148570835590363,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 118669,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.20005646347999573,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 122683,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.19949546456336975,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 128152,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.19822396337985992,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 133960,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.19603216648101807,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 131683,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1956636607646942,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 126603,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.19397252798080444,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116014,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.19133621454238892,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115299,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.19064025580883026,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 117060,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.18887312710285187,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116757,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.18868322670459747,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 119161,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.18825183808803558,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 120805,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.18811090290546417,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116113,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.18652938306331635,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114808,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.18608397245407104,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 127651,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.18479955196380615,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114256,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.18396516144275665,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 128500,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.18313103914260864,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 129848,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.18229694664478302,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116918,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.1818801760673523,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115046,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.18152962625026703,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 126801,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.18021081387996674,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 123304,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1800546497106552,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 120342,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.17736932635307312,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 136087,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.17640145123004913,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 137399,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1747281402349472,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 130606,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.17395353317260742,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 121398,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.17360606789588928,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 136198,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.17323113977909088,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 121046,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.17254480719566345,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 136074,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.17145074903964996,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115481,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.1684102863073349,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 121425,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1682935357093811,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 129320,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.16443000733852386,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115402,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.16435933113098145,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 137738,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.16272225975990295,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 119512,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.16180850565433502,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 130962,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1614389270544052,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116616,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.15986500680446625,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 118693,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.15977048873901367,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 136056,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.15804632008075714,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 117250,
+          "group": "MN_PROBOSCIS",
+          "spikes": 0,
+          "peakV": 0.15601517260074615,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 133548,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1553063541650772,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 129887,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1544530689716339,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115027,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.15226145088672638,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 113634,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.15185102820396423,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 121753,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1518443077802658,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 137172,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.15142714977264404,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 133513,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.15100997686386108,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 129479,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.14809001982212067,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 132590,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.14729994535446167,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 113635,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.1467272788286209,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 138614,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.14600417017936707,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 124296,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1453518122434616,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 131441,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.14433553814888,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 117237,
+          "group": "MN_PROBOSCIS",
+          "spikes": 0,
+          "peakV": 0.14395493268966675,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115445,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.14308398962020874,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114757,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.14099839329719543,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114274,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.1400003284215927,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 133926,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.13976004719734192,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 133286,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1393296867609024,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 130616,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.13826343417167664,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115720,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.13819962739944458,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114159,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.13724389672279358,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 117257,
+          "group": "MN_HEAD",
+          "spikes": 0,
+          "peakV": 0.1366165280342102,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 139109,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.13515827059745789,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115651,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.13500557839870453,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 126057,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.13095399737358093,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 127062,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1297350972890854,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 121281,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.12848365306854248,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 130274,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.12783505022525787,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 137137,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1268150806427002,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 130631,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1256985366344452,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 137251,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.12489935755729675,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 132498,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.12387517094612122,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115105,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.12364281713962555,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116311,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.12291035056114197,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 117062,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.12264348566532135,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 137163,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.12110050022602081,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 129055,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.12104493379592896,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 136666,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.12097492814064026,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 117082,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.12024492770433426,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 131673,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1202356293797493,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 132675,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11888904124498367,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 117075,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.11714520305395126,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114963,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.11616421490907669,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 125584,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11513467133045197,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114680,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.11382237076759338,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 125392,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11338473111391068,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115711,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.11291670799255371,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 133224,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11263179779052734,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 121453,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11067318171262741,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 114634,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.11054610460996628,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 132393,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.11012881249189377,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 125237,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1099463701248169,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 115079,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.10857713967561722,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 126087,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.1080295518040657,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 136196,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10684125870466232,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116925,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.10637450963258743,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 123515,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10491611063480377,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 128235,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10470905154943466,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 126536,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.104705810546875,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 118331,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10463649779558182,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 123783,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10455166548490524,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 113144,
+          "group": "SEZ_FEED",
+          "spikes": 0,
+          "peakV": 0.10447486490011215,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 122345,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10303721576929092,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 130850,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10303717851638794,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116154,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.10262013971805573,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 125252,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10197234898805618,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 128940,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10168791562318802,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 135093,
+          "group": "GENERIC_CENTRAL",
+          "spikes": 0,
+          "peakV": 0.10136853903532028,
+          "firstSpike": null
+        },
+        {
+          "sortedIndex": 116439,
+          "group": "GNG_DESC",
+          "spikes": 0,
+          "peakV": 0.10121830552816391,
+          "firstSpike": null
+        }
+      ]
+    },
+    {
+      "condition": "blank",
+      "source": null,
+      "threshold": 0.3,
+      "ablated": true,
+      "directSpikes": 0,
+      "downstreamSpikes": 0,
+      "candidates": []
+    },
+    {
+      "condition": "visual",
+      "source": "VIS_R1R6",
+      "threshold": 0.3,
+      "ablated": true,
+      "directSpikes": 229740,
+      "downstreamSpikes": 0,
+      "candidates": []
+    },
+    {
+      "condition": "food",
+      "source": "OLF_ORN_FOOD",
+      "threshold": 0.3,
+      "ablated": true,
+      "directSpikes": 37020,
+      "downstreamSpikes": 0,
+      "candidates": []
+    },
+    {
+      "condition": "vibration",
+      "source": "MECH_JO",
+      "threshold": 0.3,
+      "ablated": true,
+      "directSpikes": 17580,
+      "downstreamSpikes": 0,
+      "candidates": []
+    },
+    {
+      "condition": "touch",
+      "source": "MECH_BRISTLE",
+      "threshold": 0.3,
+      "ablated": true,
+      "directSpikes": 38540,
+      "downstreamSpikes": 0,
+      "candidates": []
+    }
+  ]
+}

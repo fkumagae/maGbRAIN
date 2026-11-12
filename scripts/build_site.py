@@ -34,6 +34,7 @@ def build():
     shutil.copytree(ROOT/'projects/REP-0014-mag-batas/app', out/'mag-batas', dirs_exist_ok=True)
     shutil.copytree(ROOT/'projects/REP-0016-rv1a/app', out/'rv1a', dirs_exist_ok=True)
     shutil.copytree(ROOT/'projects/REP-0001-jogo-submarino/mosca-guia/app', out/'mosca-guia', dirs_exist_ok=True)
+    shutil.copytree(ROOT/'projects/REP-0012-cerebro-mosca/app', out/'cerebro-mosca', dirs_exist_ok=True)
     print(f'Built {len(records)} ideas and {len(links)} relationships')
 if __name__=='__main__': build()
 

@@ -39,3 +39,8 @@ Sugestão de Felipe (fkumagae) registrada na ficha REP-0001, com referência tex
 ## Demo mosca-guia
 
 2026-11-11 · Demo jogável independente, Issue #33. Publicação e acesso pelas duas fichas. Fuga por regra de jogo e telemetria FlyBrain, com experimento documentado em mosca-guia/app/guide-experiments/REPORT.md.
+
+
+## Bancada sensorial · 2026-11-12
+
+Issue #35: acessos separados ao FlyBrain e à sala 3D pela ficha REP-0012; 35 condições de varredura e 20 condições de mapeamento/controle. Resultados em projects/REP-0001-jogo-submarino/mosca-guia/app/sensory-lab/REPORT.md. Controle neural do NPC continua em investigação.

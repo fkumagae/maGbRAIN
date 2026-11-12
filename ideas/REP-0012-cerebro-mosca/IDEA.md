@@ -1,9 +1,9 @@
 ---
 id: REP-0012
 title: "Projeto com cérebro virtual de mosca"
-status: inbox
+status: exploring
 owner: null
-site: mosca-guia/
+site: cerebro-mosca/
 ---
 
 # Projeto com cérebro virtual de mosca
@@ -15,12 +15,17 @@ Explorar um projeto usando um cérebro virtual de mosca. Plataforma, modelo e ob
 50 Entrada/Caixa de entrada.md — pedido atribuído a Felipe, 2026-11-04. — arquivo Minha Mente.zip. Crédito da proposta trazida ao mapa: **Felipe (fkumagae)**, confirmado pelo participante em 05/11/2026 após comparação com a Minha Mente. Este crédito não atribui execução posterior nem autoria exclusiva de trabalhos coletivos.
 
 ## Próxima contribuição sugerida pela IA
-Identificar a plataforma mencionada e propor um experimento pequeno.
+Validar a identidade dos neurônios candidatos, separar aproximação de luminosidade e testar ablações seletivas antes de decodificar comandos do NPC.
 
 ## Continuidade
-Nenhuma tarefa está assumida. Abrir uma Issue antes de executar; vinculá-la aqui. A captura não representa aprovação para execução nem conclusão.
+Mapeamento sensorial em andamento, Issue #35. Felipe solicitou os experimentos e a integração dos acessos; controle motor neural permanece não validado.
 
 
 ## Demo mosca-guia
 
 Demo jogável de um compartimento seco, com fuga, espera, retomada e descoberta da passagem. Publicação solicitada por Felipe, Issue #33. FlyBrain fornece telemetria; decisões de fuga e trajeto usam regras do jogo explicitamente indicadas.
+
+
+## Bancada sensorial · 2026-11-12
+
+Issue #35: acessos separados ao FlyBrain e à sala 3D pela ficha REP-0012; 35 condições de varredura e 20 condições de mapeamento/controle. Resultados em projects/REP-0001-jogo-submarino/mosca-guia/app/sensory-lab/REPORT.md. Controle neural do NPC continua em investigação.

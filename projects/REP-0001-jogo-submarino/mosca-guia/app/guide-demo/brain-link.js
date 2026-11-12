@@ -10,6 +10,7 @@
       );
     },
     onSample(sample) {
+      window.SensoryBench?.sample(sample);
       GuideDemo.updateBrain({
         ready: true,
         activity: sample.visualFraction,
@@ -19,6 +20,8 @@
     },
   });
   GuideDemo.attachBrain(adapter);
+  window.SensoryBench?.attach(adapter);
+  window.GuideDemo.sensoryAdapter = adapter;
   adapter.init();
   window.GuideDemo.getNeuralSamples = () => adapter.getSamples();
   window.addEventListener("pagehide", () => adapter.dispose());
