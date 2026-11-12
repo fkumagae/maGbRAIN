@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-12-maglab-mapeamento-basico",
+  "date": "2026-11-12",
+  "ideas": [
+    "REP-0012"
+  ],
+  "summary": "Bateria de 99 ensaios de entradas sensoriais e ablações, definida com Felipe e publicada com dados completos.",
+  "types": [
+    "research",
+    "test"
+  ],
+  "participants": [
+    "fkumagae"
+  ],
+  "attribution": "confirmed",
+  "attribution_source": "Crédito Felipe (fkumagae) confirmado; definiu os objetivos e a continuidade dos testes. Escopo corrigido por Felipe: implementação vinculada ao Cérebro de mosca (REP-0012); no jogo de Pedro, sua participação é a sugestão de integração.",
+  "tools": [
+    "Codex para implementação, análise e verificação"
+  ],
+  "evidence": [
+    {
+      "label": "Bateria de 99 testes e dados",
+      "path": "projects/REP-0012-cerebro-mosca/app/sensory-lab/node/results/README.md"
+    },
+    {
+      "label": "Resultados da bateria",
+      "path": "projects/REP-0012-cerebro-mosca/app/sensory-lab/node/results/mapeamento-basico-2026-11-12/resumo.json"
+    }
+  ]
+}

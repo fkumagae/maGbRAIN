@@ -1,0 +1,161 @@
+{
+  "status": "complete",
+  "concluidos": 99,
+  "total": 99,
+  "controlesSemDisparos": true,
+  "celulasComDisparos": 8,
+  "ensaiosComDisparos": [
+    {
+      "id": "odor-i30-d20",
+      "disparos": 2
+    },
+    {
+      "id": "odor-i45-d20",
+      "disparos": 2
+    },
+    {
+      "id": "odor-i20-d60",
+      "disparos": 4
+    },
+    {
+      "id": "odor-i30-d60",
+      "disparos": 7
+    },
+    {
+      "id": "odor-i45-d60",
+      "disparos": 12
+    },
+    {
+      "id": "odor-i20-d180",
+      "disparos": 14
+    },
+    {
+      "id": "odor-i30-d180",
+      "disparos": 25
+    },
+    {
+      "id": "odor-i45-d180",
+      "disparos": 45
+    },
+    {
+      "id": "odor-ramp-i15",
+      "disparos": 2
+    },
+    {
+      "id": "odor-ramp-i30",
+      "disparos": 11
+    },
+    {
+      "id": "odor-i20-d60-sem-99987",
+      "disparos": 4
+    },
+    {
+      "id": "odor-i20-d60-sem-100133",
+      "disparos": 4
+    },
+    {
+      "id": "odor-i20-d60-sem-100555",
+      "disparos": 4
+    },
+    {
+      "id": "odor-i20-d60-sem-99987-100133-100555",
+      "disparos": 4
+    },
+    {
+      "id": "odor-i30-d60-sem-99987",
+      "disparos": 7
+    },
+    {
+      "id": "odor-i30-d60-sem-100133",
+      "disparos": 7
+    },
+    {
+      "id": "odor-i30-d60-sem-100555",
+      "disparos": 7
+    },
+    {
+      "id": "odor-i30-d60-sem-99987-100133-100555",
+      "disparos": 7
+    },
+    {
+      "id": "odor-i45-d60-sem-99987",
+      "disparos": 12
+    },
+    {
+      "id": "odor-i45-d60-sem-100133",
+      "disparos": 12
+    },
+    {
+      "id": "odor-i45-d60-sem-100555",
+      "disparos": 12
+    },
+    {
+      "id": "odor-i45-d60-sem-99987-100133-100555",
+      "disparos": 12
+    },
+    {
+      "id": "odor-i20-d180-sem-99987",
+      "disparos": 14
+    },
+    {
+      "id": "odor-i20-d180-sem-100133",
+      "disparos": 14
+    },
+    {
+      "id": "odor-i20-d180-sem-100555",
+      "disparos": 14
+    },
+    {
+      "id": "odor-i20-d180-sem-99987-100133-100555",
+      "disparos": 14
+    },
+    {
+      "id": "odor-i30-d180-sem-99987",
+      "disparos": 25
+    },
+    {
+      "id": "odor-i30-d180-sem-100133",
+      "disparos": 25
+    },
+    {
+      "id": "odor-i30-d180-sem-100555",
+      "disparos": 25
+    },
+    {
+      "id": "odor-i30-d180-sem-99987-100133-100555",
+      "disparos": 25
+    },
+    {
+      "id": "odor-i45-d180-sem-99987",
+      "disparos": 45
+    },
+    {
+      "id": "odor-i45-d180-sem-100133",
+      "disparos": 45
+    },
+    {
+      "id": "odor-i45-d180-sem-100555",
+      "disparos": 45
+    },
+    {
+      "id": "odor-i45-d180-sem-99987-100133-100555",
+      "disparos": 45
+    },
+    {
+      "id": "odor-mais-visual-i20",
+      "disparos": 14
+    },
+    {
+      "id": "odor-mais-visual-i30",
+      "disparos": 25
+    },
+    {
+      "id": "odor-mais-contato-i20",
+      "disparos": 14
+    },
+    {
+      "id": "odor-mais-contato-i30",
+      "disparos": 25
+    }
+  ]
+}

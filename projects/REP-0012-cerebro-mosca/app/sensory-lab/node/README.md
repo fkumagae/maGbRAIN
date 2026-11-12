@@ -79,3 +79,7 @@ Retorna uma Promise. `shouldStop` é consultado entre passos; use um evento/temp
 5. **Depois:** decodificador explícito de avanço/giro/parada e testes fechados comparando rede conectada, desconectada e piloto por regras. Definir critérios de sucesso antes da avaliação. Sem rota predefinida e sem entregar a posição do alvo ao decodificador.
 
 Não é necessário consultar IA entre ensaios. Prepare uma configuração, rode até terminar, preserve a pasta e depois analise o relatório. A interpretação e a escolha da próxima bateria ficam separadas da execução automática.
+
+## Baterias já publicadas
+
+Os arquivos completos dos 99 e 13 ensaios estão no [índice de resultados](results/README.md). Novas execuções ficam locais até serem selecionadas para publicação; as exceções de .gitignore identificam os arquivos já publicados.

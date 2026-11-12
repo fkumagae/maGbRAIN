@@ -1,0 +1,31 @@
+{
+  "id": "2026-11-12-flybrain-neural-pilot",
+  "date": "2026-11-12",
+  "ideas": [
+    "REP-0012"
+  ],
+  "summary": "Felipe definiu e autorizou a análise dos ensaios e o primeiro controle experimental da mosca por sinais neurais, vinculado ao REP-0012.",
+  "types": [
+    "code",
+    "research",
+    "test"
+  ],
+  "participants": [
+    "fkumagae"
+  ],
+  "attribution": "confirmed",
+  "attribution_source": "Crédito Felipe (fkumagae) confirmado; definiu os objetivos e a continuidade dos testes. Escopo corrigido por Felipe: implementação vinculada ao Cérebro de mosca (REP-0012); no jogo de Pedro, sua participação é a sugestão de integração.",
+  "tools": [
+    "Codex para implementação, análise e verificação"
+  ],
+  "evidence": [
+    {
+      "label": "Análise e limitações do piloto",
+      "path": "projects/REP-0012-cerebro-mosca/app/pilot/REPORT.md"
+    },
+    {
+      "label": "48 percursos controlados",
+      "path": "projects/REP-0012-cerebro-mosca/app/pilot/evaluation.json"
+    }
+  ]
+}

@@ -1,0 +1,1441 @@
+{
+  "version": 1,
+  "name": "Mapa básico de entradas para futuro piloto — limiar original",
+  "parameters": {
+    "threshold": 1,
+    "leak": 0.95,
+    "refractory": 3
+  },
+  "watch": [
+    99973,
+    99987,
+    100133,
+    100136,
+    100437,
+    100555,
+    114213,
+    114573,
+    115534,
+    115847,
+    115886,
+    116057,
+    116116,
+    116130,
+    116293,
+    116369,
+    116990,
+    116998
+  ],
+  "cases": [
+    {
+      "id": "controle-vazio-d20",
+      "steps": 140,
+      "stimuli": []
+    },
+    {
+      "id": "odor-i05-d20",
+      "steps": 140,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 40,
+          "current": 0.05,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-i10-d20",
+      "steps": 140,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 40,
+          "current": 0.1,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-i20-d20",
+      "steps": 140,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 40,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-i30-d20",
+      "steps": 140,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 40,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-i45-d20",
+      "steps": 140,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 40,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-sem-conexoes-d20",
+      "steps": 140,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 40,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ],
+      "disconnectAll": true
+    },
+    {
+      "id": "visual-i05-d20",
+      "steps": 140,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 40,
+          "current": 0.05,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "visual-i10-d20",
+      "steps": 140,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 40,
+          "current": 0.1,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "visual-i20-d20",
+      "steps": 140,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 40,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "visual-i30-d20",
+      "steps": 140,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 40,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "visual-i45-d20",
+      "steps": 140,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 40,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "visual-sem-conexoes-d20",
+      "steps": 140,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 40,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ],
+      "disconnectAll": true
+    },
+    {
+      "id": "contato-i05-d20",
+      "steps": 140,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 40,
+          "current": 0.05,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "contato-i10-d20",
+      "steps": 140,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 40,
+          "current": 0.1,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "contato-i20-d20",
+      "steps": 140,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 40,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "contato-i30-d20",
+      "steps": 140,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 40,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "contato-i45-d20",
+      "steps": 140,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 40,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "contato-sem-conexoes-d20",
+      "steps": 140,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 40,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ],
+      "disconnectAll": true
+    },
+    {
+      "id": "controle-vazio-d60",
+      "steps": 180,
+      "stimuli": []
+    },
+    {
+      "id": "odor-i05-d60",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 80,
+          "current": 0.05,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-i10-d60",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 80,
+          "current": 0.1,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-i20-d60",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 80,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-i30-d60",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 80,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-i45-d60",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 80,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-sem-conexoes-d60",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 80,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ],
+      "disconnectAll": true
+    },
+    {
+      "id": "visual-i05-d60",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 80,
+          "current": 0.05,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "visual-i10-d60",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 80,
+          "current": 0.1,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "visual-i20-d60",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 80,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "visual-i30-d60",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 80,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "visual-i45-d60",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 80,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "visual-sem-conexoes-d60",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 80,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ],
+      "disconnectAll": true
+    },
+    {
+      "id": "contato-i05-d60",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 80,
+          "current": 0.05,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "contato-i10-d60",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 80,
+          "current": 0.1,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "contato-i20-d60",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 80,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "contato-i30-d60",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 80,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "contato-i45-d60",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 80,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "contato-sem-conexoes-d60",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 80,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ],
+      "disconnectAll": true
+    },
+    {
+      "id": "controle-vazio-d180",
+      "steps": 300,
+      "stimuli": []
+    },
+    {
+      "id": "odor-i05-d180",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.05,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-i10-d180",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.1,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-i20-d180",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-i30-d180",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-i45-d180",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-sem-conexoes-d180",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ],
+      "disconnectAll": true
+    },
+    {
+      "id": "visual-i05-d180",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 200,
+          "current": 0.05,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "visual-i10-d180",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 200,
+          "current": 0.1,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "visual-i20-d180",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 200,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "visual-i30-d180",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 200,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "visual-i45-d180",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 200,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "visual-sem-conexoes-d180",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 200,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ],
+      "disconnectAll": true
+    },
+    {
+      "id": "contato-i05-d180",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 200,
+          "current": 0.05,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "contato-i10-d180",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 200,
+          "current": 0.1,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "contato-i20-d180",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 200,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "contato-i30-d180",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 200,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "contato-i45-d180",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 200,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "contato-sem-conexoes-d180",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 200,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ],
+      "disconnectAll": true
+    },
+    {
+      "id": "odor-ramp-i15",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.15,
+          "profile": "ramp"
+        }
+      ]
+    },
+    {
+      "id": "odor-ramp-i30",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.3,
+          "profile": "ramp"
+        }
+      ]
+    },
+    {
+      "id": "odor-pulse-i15",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.15,
+          "profile": "pulse",
+          "period": 20,
+          "on": 5
+        }
+      ]
+    },
+    {
+      "id": "odor-pulse-i30",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.3,
+          "profile": "pulse",
+          "period": 20,
+          "on": 5
+        }
+      ]
+    },
+    {
+      "id": "visual-ramp-i15",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 200,
+          "current": 0.15,
+          "profile": "ramp"
+        }
+      ]
+    },
+    {
+      "id": "visual-ramp-i30",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 200,
+          "current": 0.3,
+          "profile": "ramp"
+        }
+      ]
+    },
+    {
+      "id": "visual-pulse-i15",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 200,
+          "current": 0.15,
+          "profile": "pulse",
+          "period": 20,
+          "on": 5
+        }
+      ]
+    },
+    {
+      "id": "visual-pulse-i30",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 200,
+          "current": 0.3,
+          "profile": "pulse",
+          "period": 20,
+          "on": 5
+        }
+      ]
+    },
+    {
+      "id": "contato-ramp-i15",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 200,
+          "current": 0.15,
+          "profile": "ramp"
+        }
+      ]
+    },
+    {
+      "id": "contato-ramp-i30",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 200,
+          "current": 0.3,
+          "profile": "ramp"
+        }
+      ]
+    },
+    {
+      "id": "contato-pulse-i15",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 200,
+          "current": 0.15,
+          "profile": "pulse",
+          "period": 20,
+          "on": 5
+        }
+      ]
+    },
+    {
+      "id": "contato-pulse-i30",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 200,
+          "current": 0.3,
+          "profile": "pulse",
+          "period": 20,
+          "on": 5
+        }
+      ]
+    },
+    {
+      "id": "odor-i20-d60-sem-99987",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 80,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        99987
+      ]
+    },
+    {
+      "id": "odor-i20-d60-sem-100133",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 80,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        100133
+      ]
+    },
+    {
+      "id": "odor-i20-d60-sem-100555",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 80,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        100555
+      ]
+    },
+    {
+      "id": "odor-i20-d60-sem-99987-100133-100555",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 80,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        99987,
+        100133,
+        100555
+      ]
+    },
+    {
+      "id": "odor-i30-d60-sem-99987",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 80,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        99987
+      ]
+    },
+    {
+      "id": "odor-i30-d60-sem-100133",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 80,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        100133
+      ]
+    },
+    {
+      "id": "odor-i30-d60-sem-100555",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 80,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        100555
+      ]
+    },
+    {
+      "id": "odor-i30-d60-sem-99987-100133-100555",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 80,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        99987,
+        100133,
+        100555
+      ]
+    },
+    {
+      "id": "odor-i45-d60-sem-99987",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 80,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        99987
+      ]
+    },
+    {
+      "id": "odor-i45-d60-sem-100133",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 80,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        100133
+      ]
+    },
+    {
+      "id": "odor-i45-d60-sem-100555",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 80,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        100555
+      ]
+    },
+    {
+      "id": "odor-i45-d60-sem-99987-100133-100555",
+      "steps": 180,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 80,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        99987,
+        100133,
+        100555
+      ]
+    },
+    {
+      "id": "odor-i20-d180-sem-99987",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        99987
+      ]
+    },
+    {
+      "id": "odor-i20-d180-sem-100133",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        100133
+      ]
+    },
+    {
+      "id": "odor-i20-d180-sem-100555",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        100555
+      ]
+    },
+    {
+      "id": "odor-i20-d180-sem-99987-100133-100555",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        99987,
+        100133,
+        100555
+      ]
+    },
+    {
+      "id": "odor-i30-d180-sem-99987",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        99987
+      ]
+    },
+    {
+      "id": "odor-i30-d180-sem-100133",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        100133
+      ]
+    },
+    {
+      "id": "odor-i30-d180-sem-100555",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        100555
+      ]
+    },
+    {
+      "id": "odor-i30-d180-sem-99987-100133-100555",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        99987,
+        100133,
+        100555
+      ]
+    },
+    {
+      "id": "odor-i45-d180-sem-99987",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        99987
+      ]
+    },
+    {
+      "id": "odor-i45-d180-sem-100133",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        100133
+      ]
+    },
+    {
+      "id": "odor-i45-d180-sem-100555",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        100555
+      ]
+    },
+    {
+      "id": "odor-i45-d180-sem-99987-100133-100555",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.45,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        99987,
+        100133,
+        100555
+      ]
+    },
+    {
+      "id": "odor-mais-visual-i10",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.1,
+          "profile": "constant"
+        },
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 200,
+          "current": 0.1,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-mais-visual-i20",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.2,
+          "profile": "constant"
+        },
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 200,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-mais-visual-i30",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.3,
+          "profile": "constant"
+        },
+        {
+          "group": "VIS_R1R6",
+          "start": 20,
+          "end": 200,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-mais-contato-i10",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.1,
+          "profile": "constant"
+        },
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 200,
+          "current": 0.1,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-mais-contato-i20",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.2,
+          "profile": "constant"
+        },
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 200,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-mais-contato-i30",
+      "steps": 300,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 20,
+          "end": 200,
+          "current": 0.3,
+          "profile": "constant"
+        },
+        {
+          "group": "MECH_BRISTLE",
+          "start": 20,
+          "end": 200,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ]
+    }
+  ]
+}

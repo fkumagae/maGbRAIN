@@ -1,0 +1,13 @@
+const fs=require('node:fs'),path=require('node:path');
+const {runCampaign}=require('../../run.cjs');
+const config=require('./config.json');const output=path.join(__dirname,'output');let stop=false;
+process.on('SIGINT',()=>{stop=true;});
+(async()=>{const report=await runCampaign({config,output,resume:fs.existsSync(path.join(output,'checkpoint.json')),shouldStop:()=>stop,onProgress:p=>console.log(new Date().toISOString(),p.completed+'/'+p.total,p.id)});
+const csv=['ensaio,indice,populacao,disparos,potencial_maximo'];
+for(const r of report.results)for(const n of r.responders)csv.push([r.id,n.sortedIndex,report.groups.find(g=>g.id===n.groupId).name,n.spikes,n.peakV].join(','));
+fs.writeFileSync(path.join(__dirname,'neuronios-por-teste.csv'),csv.join('\n'));
+const controles=report.results.filter(r=>r.id.includes('controle-vazio')||r.id.includes('sem-conexoes'));
+const summary={status:report.status,concluidos:report.results.length,total:config.cases.length,controlesSemDisparos:controles.every(r=>r.downstreamSpikes===0),celulasComDisparos:[...new Set(report.results.flatMap(r=>r.responders.filter(n=>n.spikes>0).map(n=>n.sortedIndex)))].length,ensaiosComDisparos:report.results.filter(r=>r.downstreamSpikes>0).map(r=>({id:r.id,disparos:r.downstreamSpikes}))};
+fs.writeFileSync(path.join(__dirname,'resumo.json'),JSON.stringify(summary,null,2));console.log(JSON.stringify(summary,null,2));
+if(!summary.controlesSemDisparos)throw Error('Controle negativo falhou: investigar antes de interpretar');
+})().catch(e=>{console.error(e);process.exitCode=1;});

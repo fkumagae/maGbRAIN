@@ -14,3 +14,7 @@ Próxima tarefa delimitada: ablação seletiva das três células de odor e aná
 ## Executor local por script · 2026-11-12
 
 Felipe delimitou os testes às entradas úteis para mobilidade do NPC e pediu execução automática sem consumo de tokens por ensaio. Issue #39: executor Node.js configurável, checkpoints por ensaio, relatórios e importação no MagLab. Plano operacional e comandos em app/sensory-lab/node/README.md. Primeira bateria: 13 condições sensoriais/controladas; ainda sem ambiente espacial nem piloto. Analisar os dados antes de escolher a próxima bateria; nenhuma IA é chamada pelo executor.
+
+## Avanço delimitado · Issue #45
+
+Fases 2, 4, 5 e 6 agora têm uma primeira implementação experimental para odor lateral e giro por potenciais: app/pilot/REPORT.md. A codificação continua sintética; velocidade/parada neurais, obstáculos e validação biológica permanecem pendentes. Foram comparados 12 cenários em quatro modos, sem ajustar parâmetros para esconder a falha. Próxima tarefa: ablação seletiva de cada leitura e recuperação, depois casos espaciais novos e ruído, antes de ampliar modalidades.

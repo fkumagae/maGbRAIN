@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "scenarios": 12,
+  "runs": 48,
+  "successes": {
+    "neural": 11,
+    "rules": 12,
+    "disconnected": 2,
+    "no-readout": 2
+  },
+  "checks": [
+    "input identities/disjointness",
+    "source hashes",
+    "finite trajectories",
+    "paired disconnected/no-readout movement"
+  ]
+}

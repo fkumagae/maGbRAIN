@@ -1,0 +1,14 @@
+[
+  {
+    "folder": "projects/REP-0012-cerebro-mosca/app/sensory-lab/node/results/mobility-001",
+    "cases": 13,
+    "steps": 1300,
+    "allCheckpointHashesMatch": true
+  },
+  {
+    "folder": "projects/REP-0012-cerebro-mosca/app/sensory-lab/node/results/mapeamento-basico-2026-11-12/output",
+    "cases": 99,
+    "steps": 22940,
+    "allCheckpointHashesMatch": true
+  }
+]

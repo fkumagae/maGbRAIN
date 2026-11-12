@@ -1,1 +1,9 @@
-results/
+results/*
+!results/README.md
+!results/mobility-001/
+!results/mapeamento-basico-2026-11-12/
+results/**/*.log
+results/**/*.pid
+results/**/.lock
+results/**/*.partial
+results/**/*.tmp

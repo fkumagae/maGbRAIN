@@ -1,0 +1,7 @@
+Bateria local: 99 ensaios; nenhum uso de IA durante execução.
+Objetivo: mapear respostas a odor, entrada visual e contato, pensando no futuro piloto.
+Limiar original fixo. Intensidades, durações, rampas/pulsos, entradas combinadas e retirada seletiva de saídas. Todos os ensaios reiniciam a rede.
+Resultados: output/report.md (resumo legível), output/report.json (importar no MagLab), neuronios-por-teste.csv, resumo.json e registros por passo em output/.
+Para retomar, clique INICIAR-OU-RETOMAR.cmd. Configuração não deve ser modificada depois do início; crie outra pasta para uma bateria diferente.
+A remoção de saídas não impede a própria célula de disparar. Zero disparos não significa zero potencial. Estas correntes não equivalem a sensores espaciais reais e ainda não controlam movimento. Índices internos, associados aos hashes do modelo. Sem réplicas aleatórias: o modelo é determinístico.
+Arquivos ficam locais, sem publicação automática. Mantenha o computador ligado durante a execução; suspensão pausa o processamento.

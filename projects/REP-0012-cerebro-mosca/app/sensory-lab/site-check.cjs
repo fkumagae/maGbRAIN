@@ -9,7 +9,7 @@ const base=process.env.TEST_BASE || 'http://127.0.0.1:8774';
   page.on('pageerror',e=>result.errors.push(e.message));
   page.on('response',r=>{if(r.status()>=400)result.failedResponses.push({url:r.url(),status:r.status()});});
   await page.goto(base+'/cerebro-mosca/');
-  assert.equal(await page.locator('nav a').count(),4);
+  assert.equal(await page.locator('nav a').count(),5);
   await page.getByRole('link',{name:/Abrir FlyBrain/}).click();
   await page.waitForFunction(()=>window.BRAIN?.workerReady,{},{timeout:60000});
   await page.locator('#brain3dBtn').click();
