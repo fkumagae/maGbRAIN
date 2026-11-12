@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "base": "local",
+  "checks": [
+    "13 cases imported",
+    "known seven spikes displayed",
+    "individual responder inspection",
+    "mobile layout",
+    "invalid report rejected"
+  ],
+  "errors": []
+}

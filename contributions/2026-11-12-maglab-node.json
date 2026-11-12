@@ -1,0 +1,32 @@
+{
+  "id": "2026-11-12-maglab-node",
+  "date": "2026-11-12",
+  "ideas": [
+    "REP-0012",
+    "REP-0001"
+  ],
+  "summary": "Plano operacional e executor local Node do MagLab para ensaios configuráveis sem chamadas de IA, definidos e autorizados por Felipe.",
+  "types": [
+    "code",
+    "research",
+    "test"
+  ],
+  "participants": [
+    "fkumagae"
+  ],
+  "attribution": "confirmed",
+  "attribution_source": "Crédito Felipe (fkumagae) confirmado; definiu os objetivos e a continuidade dos testes.",
+  "tools": [
+    "Codex para implementação, análise e verificação"
+  ],
+  "evidence": [
+    {
+      "label": "Executor e plano operacional",
+      "path": "projects/REP-0001-jogo-submarino/mosca-guia/app/sensory-lab/node/README.md"
+    },
+    {
+      "label": "Testes automatizados",
+      "path": "projects/REP-0001-jogo-submarino/mosca-guia/app/sensory-lab/node/test-results.json"
+    }
+  ]
+}

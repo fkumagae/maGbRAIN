@@ -10,3 +10,7 @@ Proposta de Felipe, aprovada para execução em 2026-11-12. Projeto permanece ex
 6. **Pendente — validação:** comparar rede conectada, rede desconectada e piloto por regras; posições e mapas reservados. Definir previamente limites de sucesso, colisões, tempo e estabilidade. Acrescentar aproximação/abrigo apenas após a tarefa simples funcionar.
 
 Próxima tarefa delimitada: ablação seletiva das três células de odor e análise temporal de suas conexões, com ensaios de corrente pareados. Não deduzir sinal de giro apenas de side=left/right.
+
+## Executor local por script · 2026-11-12
+
+Felipe delimitou os testes às entradas úteis para mobilidade do NPC e pediu execução automática sem consumo de tokens por ensaio. Issue #39: executor Node.js configurável, checkpoints por ensaio, relatórios e importação no MagLab. Plano operacional e comandos em ../REP-0001-jogo-submarino/mosca-guia/app/sensory-lab/node/README.md. Primeira bateria: 13 condições sensoriais/controladas; ainda sem ambiente espacial nem piloto. Analisar os dados antes de escolher a próxima bateria; nenhuma IA é chamada pelo executor.

@@ -1,0 +1,194 @@
+{
+  "version": 1,
+  "name": "Mobilidade: candidatos sensoriais e controles",
+  "parameters": {
+    "threshold": 1,
+    "leak": 0.95,
+    "refractory": 3
+  },
+  "watch": [
+    99987,
+    100133,
+    100555
+  ],
+  "cases": [
+    {
+      "id": "blank",
+      "steps": 100,
+      "stimuli": []
+    },
+    {
+      "id": "odor-1",
+      "steps": 100,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 10,
+          "end": 70,
+          "current": 0.1,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-2",
+      "steps": 100,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 10,
+          "end": 70,
+          "current": 0.2,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-3",
+      "steps": 100,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 10,
+          "end": 70,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "odor-disconnected",
+      "steps": 100,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 10,
+          "end": 70,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ],
+      "disconnectAll": true
+    },
+    {
+      "id": "odor-without-output-99987",
+      "steps": 100,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 10,
+          "end": 70,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        99987
+      ]
+    },
+    {
+      "id": "odor-without-output-100133",
+      "steps": 100,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 10,
+          "end": 70,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        100133
+      ]
+    },
+    {
+      "id": "odor-without-output-100555",
+      "steps": 100,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 10,
+          "end": 70,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        100555
+      ]
+    },
+    {
+      "id": "odor-without-three-outputs",
+      "steps": 100,
+      "stimuli": [
+        {
+          "group": "OLF_ORN_FOOD",
+          "start": 10,
+          "end": 70,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ],
+      "disconnectOutgoing": [
+        99987,
+        100133,
+        100555
+      ]
+    },
+    {
+      "id": "visual-ramp",
+      "steps": 100,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 10,
+          "end": 70,
+          "current": 0.3,
+          "profile": "ramp"
+        }
+      ]
+    },
+    {
+      "id": "visual-constant",
+      "steps": 100,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 10,
+          "end": 70,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "steps": 100,
+      "stimuli": [
+        {
+          "group": "MECH_BRISTLE",
+          "start": 10,
+          "end": 70,
+          "current": 0.3,
+          "profile": "constant"
+        }
+      ]
+    },
+    {
+      "id": "visual-pulse",
+      "steps": 100,
+      "stimuli": [
+        {
+          "group": "VIS_R1R6",
+          "start": 10,
+          "end": 70,
+          "current": 0.3,
+          "profile": "pulse",
+          "period": 10,
+          "on": 3
+        }
+      ]
+    }
+  ]
+}

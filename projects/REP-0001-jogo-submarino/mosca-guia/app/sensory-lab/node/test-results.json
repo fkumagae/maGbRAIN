@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": [
+    "known individual and group responses",
+    "blank/disconnected controls",
+    "resume equals uninterrupted run",
+    "interruption within case restarts deterministically",
+    "configuration fingerprint mismatch rejected",
+    "existing output protected",
+    "tampered results rejected",
+    "invalid JSON fields/groups/indices rejected",
+    "pulse boundaries",
+    "actual CLI partial run and resume",
+    "concurrent lock preserved",
+    "overlapping current rejected before output"
+  ],
+  "cases": 13
+}
