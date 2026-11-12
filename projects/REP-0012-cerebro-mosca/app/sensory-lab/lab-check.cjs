@@ -2,7 +2,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 (async()=>{const browser=await chromium.launch({channel:'chrome',headless:true});const errors=[];const result={};try{
  const page=await browser.newPage({viewport:{width:390,height:844}});page.on('pageerror',e=>errors.push(e.message));
- await page.goto((process.env.TEST_BASE||'http://127.0.0.1:8774')+'/mosca-guia/sensory-lab/laboratory.html');
+ await page.goto((process.env.TEST_BASE||'http://127.0.0.1:8774')+'/cerebro-mosca/sensory-lab/laboratory.html');
  await page.waitForFunction(()=>window.NeuralLab?.ready,{},{timeout:90000});
  assert.match(await page.locator('#verification').innerText(),/471 candidatos/);
  await page.locator('#search').fill('99987');assert.equal(await page.locator('#neuron option').count(),1);

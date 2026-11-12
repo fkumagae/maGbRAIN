@@ -1,7 +1,38 @@
 [
- {"source":"REP-0002","target":"REP-0008","label":"DTW proposto como experimento complementar ao AquaFL","kind":"documented"},
- {"source":"REP-0003","target":"REP-0011","label":"Monitoramento animal: contexto de origem da proposta de microfones","kind":"documented"},
- {"source":"REP-0005","target":"REP-0006","label":"Alphaloha é um possível nome para o projeto ou uma funcionalidade","kind":"documented"},
- {"source":"REP-0007","target":"REP-0010","label":"Tema comum: integrações e automação","kind":"suggested"},
- {"source":"REP-0001","target":"REP-0005","label":"Possível intercâmbio de referências sobre ambientes aquáticos; não implica reutilização técnica","kind":"suggested"}
+  {
+    "source": "REP-0002",
+    "target": "REP-0008",
+    "label": "DTW proposto como experimento complementar ao AquaFL",
+    "kind": "documented"
+  },
+  {
+    "source": "REP-0003",
+    "target": "REP-0011",
+    "label": "Monitoramento animal: contexto de origem da proposta de microfones",
+    "kind": "documented"
+  },
+  {
+    "source": "REP-0005",
+    "target": "REP-0006",
+    "label": "Alphaloha é um possível nome para o projeto ou uma funcionalidade",
+    "kind": "documented"
+  },
+  {
+    "source": "REP-0007",
+    "target": "REP-0010",
+    "label": "Tema comum: integrações e automação",
+    "kind": "suggested"
+  },
+  {
+    "source": "REP-0001",
+    "target": "REP-0005",
+    "label": "Possível intercâmbio de referências sobre ambientes aquáticos; não implica reutilização técnica",
+    "kind": "suggested"
+  },
+  {
+    "source": "REP-0012",
+    "target": "REP-0001",
+    "label": "Felipe sugeriu integrar a mosca como NPC ao jogo de Pedro; laboratório e implementação pertencem a REP-0012",
+    "kind": "documented"
+  }
 ]

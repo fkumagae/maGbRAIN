@@ -4,3 +4,6 @@ Exploring. Atlas inicial e executor implementados na Issue #37, branch feat/flyb
 
 
 Issue #39: MagLab aceita campanhas JSON via CLI/API Node local, preserva ensaios completos na retomada e importa report.json. Primeira bateria offline executada e testada. Limite: entradas são correntes em populações; percepção espacial e piloto continuam pendentes.
+
+
+Raiz corrigida na Issue #41: toda a implementação fica em REP-0012/app e os acessos canônicos em cerebro-mosca/. REP-0001 preserva somente a proposta de integração ao jogo de Pedro.

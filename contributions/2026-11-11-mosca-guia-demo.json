@@ -2,7 +2,6 @@
   "id": "2026-11-11-mosca-guia-demo",
   "date": "2026-11-11",
   "ideas": [
-    "REP-0001",
     "REP-0012"
   ],
   "summary": "Demo jogável da mosca-guia e experimento comparativo FlyBrain, conduzidos por Felipe.",
@@ -15,18 +14,18 @@
     "fkumagae"
   ],
   "attribution": "confirmed",
-  "attribution_source": "Felipe solicitou a demo, definiu seu comportamento e autorizou publicação no maGbRAIN.",
+  "attribution_source": "Felipe solicitou a demo, definiu seu comportamento e autorizou publicação no maGbRAIN. Escopo corrigido por Felipe: implementação vinculada ao Cérebro de mosca (REP-0012); no jogo de Pedro, sua participação é a sugestão de integração.",
   "tools": [
     "Codex para implementação e verificação"
   ],
   "evidence": [
     {
       "label": "Demo e créditos",
-      "path": "projects/REP-0001-jogo-submarino/mosca-guia/README.md"
+      "path": "projects/REP-0012-cerebro-mosca/DEMO.md"
     },
     {
       "label": "Experimento",
-      "path": "projects/REP-0001-jogo-submarino/mosca-guia/app/guide-experiments/REPORT.md"
+      "path": "projects/REP-0012-cerebro-mosca/app/guide-experiments/REPORT.md"
     }
   ]
 }

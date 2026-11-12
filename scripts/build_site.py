@@ -17,7 +17,7 @@ def build():
         site=meta.get('site','').strip('"')
         if site and not (site.startswith('https://') or re.fullmatch(r'[a-z0-9-]+/',site)):
             raise ValueError(f'{p}: invalid site URL')
-        records.append(dict(id=ident,title=meta['title'].strip('"'),status=status,site=site,summary=section('Registro'),next=section('Próxima'),path=p.relative_to(ROOT).as_posix()))
+        records.append(dict(id=ident,title=meta['title'].strip('"'),status=status,site=site,summary=section('Registro'),next=section('PrÃ³xima'),path=p.relative_to(ROOT).as_posix()))
     ids=[r['id'] for r in records]
     if len(ids)!=len(set(ids)): raise ValueError('Duplicate IDs')
     people, contributions=load_contributions(ROOT, ids)
@@ -33,8 +33,15 @@ def build():
     shutil.copytree(ROOT/'assets', out/'assets', dirs_exist_ok=True)
     shutil.copytree(ROOT/'projects/REP-0014-mag-batas/app', out/'mag-batas', dirs_exist_ok=True)
     shutil.copytree(ROOT/'projects/REP-0016-rv1a/app', out/'rv1a', dirs_exist_ok=True)
-    shutil.copytree(ROOT/'projects/REP-0001-jogo-submarino/mosca-guia/app', out/'mosca-guia', dirs_exist_ok=True)
     shutil.copytree(ROOT/'projects/REP-0012-cerebro-mosca/app', out/'cerebro-mosca', dirs_exist_ok=True)
+    # Old published addresses remain compatible; canonical pages belong to REP-0012.
+    canonical=out/'cerebro-mosca'
+    legacy=out/'mosca-guia'
+    shutil.copytree(canonical, legacy, dirs_exist_ok=True)
+    for page in canonical.rglob('*.html'):
+        relative=page.relative_to(canonical)
+        target='https://pedrocamargolince.github.io/maGbRAIN/cerebro-mosca/'+relative.as_posix()
+        (legacy/relative).write_text('<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0;url='+target+'"><link rel="canonical" href="'+target+'"><a href="'+target+'">Abrir no Cérebro de mosca</a>')
     print(f'Built {len(records)} ideas and {len(links)} relationships')
 if __name__=='__main__': build()
 

@@ -13,4 +13,4 @@ Próxima tarefa delimitada: ablação seletiva das três células de odor e aná
 
 ## Executor local por script · 2026-11-12
 
-Felipe delimitou os testes às entradas úteis para mobilidade do NPC e pediu execução automática sem consumo de tokens por ensaio. Issue #39: executor Node.js configurável, checkpoints por ensaio, relatórios e importação no MagLab. Plano operacional e comandos em ../REP-0001-jogo-submarino/mosca-guia/app/sensory-lab/node/README.md. Primeira bateria: 13 condições sensoriais/controladas; ainda sem ambiente espacial nem piloto. Analisar os dados antes de escolher a próxima bateria; nenhuma IA é chamada pelo executor.
+Felipe delimitou os testes às entradas úteis para mobilidade do NPC e pediu execução automática sem consumo de tokens por ensaio. Issue #39: executor Node.js configurável, checkpoints por ensaio, relatórios e importação no MagLab. Plano operacional e comandos em app/sensory-lab/node/README.md. Primeira bateria: 13 condições sensoriais/controladas; ainda sem ambiente espacial nem piloto. Analisar os dados antes de escolher a próxima bateria; nenhuma IA é chamada pelo executor.

@@ -28,4 +28,8 @@ Demo jogável de um compartimento seco, com fuga, espera, retomada e descoberta 
 
 ## Bancada sensorial · 2026-11-12
 
-Issue #35: acessos separados ao FlyBrain e à sala 3D pela ficha REP-0012; 35 condições de varredura e 20 condições de mapeamento/controle. Resultados em projects/REP-0001-jogo-submarino/mosca-guia/app/sensory-lab/REPORT.md. Controle neural do NPC continua em investigação.
+Issue #35: acessos separados ao FlyBrain e à sala 3D pela ficha REP-0012; 35 condições de varredura e 20 condições de mapeamento/controle. Resultados em projects/REP-0012-cerebro-mosca/app/sensory-lab/REPORT.md. Controle neural do NPC continua em investigação.
+
+## Raiz do projeto
+
+FlyBrain, MagLab, os ensaios e a demonstração pertencem a REP-0012. Código em [app](../../projects/REP-0012-cerebro-mosca/app); [projeto](../../projects/REP-0012-cerebro-mosca/README.md). A ligação com REP-0001 é a sugestão de Felipe para integrar a mosca ao jogo de Pedro.

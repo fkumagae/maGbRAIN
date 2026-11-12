@@ -2,8 +2,7 @@
   "id": "2026-11-12-flybrain-sensory-lab",
   "date": "2026-11-12",
   "ideas": [
-    "REP-0012",
-    "REP-0001"
+    "REP-0012"
   ],
   "summary": "Separação dos acessos FlyBrain/jogo e bancada com mapeamento sensorial e controles, solicitados e conduzidos por Felipe.",
   "types": [
@@ -15,14 +14,14 @@
     "fkumagae"
   ],
   "attribution": "confirmed",
-  "attribution_source": "Crédito Felipe (fkumagae) confirmado; definiu os objetivos e a continuidade dos testes.",
+  "attribution_source": "Crédito Felipe (fkumagae) confirmado; definiu os objetivos e a continuidade dos testes. Escopo corrigido por Felipe: implementação vinculada ao Cérebro de mosca (REP-0012); no jogo de Pedro, sua participação é a sugestão de integração.",
   "tools": [
     "Codex para implementação, análise e verificação"
   ],
   "evidence": [
     {
       "label": "Protocolo e resultados",
-      "path": "projects/REP-0001-jogo-submarino/mosca-guia/app/sensory-lab/REPORT.md"
+      "path": "projects/REP-0012-cerebro-mosca/app/sensory-lab/REPORT.md"
     },
     {
       "label": "Passagem de trabalho",

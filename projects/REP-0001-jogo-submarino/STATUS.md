@@ -36,11 +36,6 @@ Cronologia/idade do sucessor no coop; homenagem sem capacete recuperado; regras 
 
 Sugestão de Felipe (fkumagae) registrada na ficha REP-0001, com referência textual a REP-0012 e mecânica sugerida pela IA. Entrega vinculada à [Issue #24](https://github.com/PedroCamargoLINCE/maGbRAIN/issues/24), aguardando revisão e integração. [Passagem de trabalho](handoffs/2026-11-06-mosca-guia.md). Modelo virtual e divisão dos comportamentos permanecem em aberto.
 
-## Demo mosca-guia
+## Integração com o Cérebro de mosca
 
-2026-11-11 · Demo jogável independente, Issue #33. Publicação e acesso pelas duas fichas. Fuga por regra de jogo e telemetria FlyBrain, com experimento documentado em mosca-guia/app/guide-experiments/REPORT.md.
-
-
-## Bancada sensorial · 2026-11-12
-
-Issue #35: acessos separados ao FlyBrain e à sala 3D pela ficha REP-0012; 35 condições de varredura e 20 condições de mapeamento/controle. Resultados em projects/REP-0001-jogo-submarino/mosca-guia/app/sensory-lab/REPORT.md. Controle neural do NPC continua em investigação.
+Escopo esclarecido por Felipe em 2026-11-12: o jogo pertence a PedroCamargoLINCE; Felipe sugeriu integrar uma mosca/NPC. O desenvolvimento de FlyBrain/MagLab e da demonstração está em [REP-0012](../REP-0012-cerebro-mosca/README.md). Nenhuma implementação do laboratório é contabilizada como desenvolvimento do jogo.

@@ -24,7 +24,7 @@ const base=process.env.TEST_BASE || 'http://127.0.0.1:8774';
   await page.locator('#ablation').selectOption('true');
   assert.equal(await page.locator('#rows tr').count(),0);
   result.checks.push('Neuron map shows food response and empty ablation control');
-  await page.goto(base+'/mosca-guia/');
+  await page.goto(base+'/cerebro-mosca/guide-demo/');
   await page.waitForURL('**/guide-demo/');
   await page.waitForFunction(()=>window.GuideDemo?.sensoryAdapter?.ready,{},{timeout:60000});
   await page.locator('#openBench').click();

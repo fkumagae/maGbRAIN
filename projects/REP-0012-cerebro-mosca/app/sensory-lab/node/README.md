@@ -4,7 +4,7 @@ Esta interface executa localmente o mesmo worker neural usado pelo laboratório.
 
 ## Executar
 
-Abra um terminal na raiz do aplicativo FlyBrain (a pasta que contém `data/`, `js/` e `sensory-lab/`). No repositório maGbRAIN essa raiz é `projects/REP-0001-jogo-submarino/mosca-guia/app/`.
+Abra um terminal na raiz do aplicativo FlyBrain (a pasta que contém `data/`, `js/` e `sensory-lab/`). No repositório maGbRAIN essa raiz é `projects/REP-0012-cerebro-mosca/app/`.
 
 ```powershell
 node sensory-lab/node/run.cjs --config sensory-lab/node/mobility-inputs.json --out sensory-lab/node/results/bateria-001

@@ -2,8 +2,8 @@
 id: REP-0001
 title: "Jogo submarino em terceira pessoa"
 status: exploring
-owner: null
-site: mosca-guia/
+owner: PedroCamargoLINCE
+site:
 ---
 
 # Jogo submarino em terceira pessoa
@@ -27,6 +27,6 @@ Visão de design registrada a pedido do proponente em 2026-11-04: [projeto e ret
 
 Felipe (fkumagae) propôs usar o cérebro virtual da mosca em uma criatura que pudesse guiar o jogador ou atuar como NPC. A IA sugeriu a mecânica de observação e descoberta da passagem. Felipe aprovou o registro em 2026-11-06. A escolha do modelo virtual e a divisão de comportamentos entre o modelo e o jogo continuam em aberto.
 
-## Demo mosca-guia
+## Referência de integração
 
-Demo jogável de um compartimento seco, com fuga, espera, retomada e descoberta da passagem. Publicação solicitada por Felipe, Issue #33. FlyBrain fornece telemetria; decisões de fuga e trajeto usam regras do jogo explicitamente indicadas.
+O jogo é o projeto de PedroCamargoLINCE. A contribuição de Felipe aqui é a sugestão de integrar a mosca como NPC. FlyBrain, MagLab e a demonstração experimental pertencem ao [Cérebro de mosca (REP-0012)](../REP-0012-cerebro-mosca/IDEA.md), que é sua raiz técnica e ponto de acesso.

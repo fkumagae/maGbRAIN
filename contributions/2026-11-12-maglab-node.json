@@ -2,8 +2,7 @@
   "id": "2026-11-12-maglab-node",
   "date": "2026-11-12",
   "ideas": [
-    "REP-0012",
-    "REP-0001"
+    "REP-0012"
   ],
   "summary": "Plano operacional e executor local Node do MagLab para ensaios configuráveis sem chamadas de IA, definidos e autorizados por Felipe.",
   "types": [
@@ -15,18 +14,18 @@
     "fkumagae"
   ],
   "attribution": "confirmed",
-  "attribution_source": "Crédito Felipe (fkumagae) confirmado; definiu os objetivos e a continuidade dos testes.",
+  "attribution_source": "Crédito Felipe (fkumagae) confirmado; definiu os objetivos e a continuidade dos testes. Escopo corrigido por Felipe: implementação vinculada ao Cérebro de mosca (REP-0012); no jogo de Pedro, sua participação é a sugestão de integração.",
   "tools": [
     "Codex para implementação, análise e verificação"
   ],
   "evidence": [
     {
       "label": "Executor e plano operacional",
-      "path": "projects/REP-0001-jogo-submarino/mosca-guia/app/sensory-lab/node/README.md"
+      "path": "projects/REP-0012-cerebro-mosca/app/sensory-lab/node/README.md"
     },
     {
       "label": "Testes automatizados",
-      "path": "projects/REP-0001-jogo-submarino/mosca-guia/app/sensory-lab/node/test-results.json"
+      "path": "projects/REP-0012-cerebro-mosca/app/sensory-lab/node/test-results.json"
     }
   ]
 }
