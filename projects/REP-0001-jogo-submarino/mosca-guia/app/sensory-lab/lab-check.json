@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "checks": [
+    "471 verified identities",
+    "mobile layout",
+    "pause/resume",
+    "16 cases / 1600 synchronized steps",
+    "blank and disconnected controls",
+    "food downstream total = 7",
+    "export includes exact IDs",
+    "cancel preserves partial data"
+  ],
+  "totals": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    7,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "errors": []
+}

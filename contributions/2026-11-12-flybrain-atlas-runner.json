@@ -1,0 +1,32 @@
+{
+  "id": "2026-11-12-flybrain-atlas-runner",
+  "date": "2026-11-12",
+  "ideas": [
+    "REP-0012",
+    "REP-0001"
+  ],
+  "summary": "Atlas com IDs originais verificados e executor automático de ensaios, conforme plano definido e autorizado por Felipe.",
+  "types": [
+    "code",
+    "research",
+    "test"
+  ],
+  "participants": [
+    "fkumagae"
+  ],
+  "attribution": "confirmed",
+  "attribution_source": "Crédito Felipe (fkumagae) confirmado; definiu os objetivos e a continuidade dos testes.",
+  "tools": [
+    "Codex para implementação, análise e verificação"
+  ],
+  "evidence": [
+    {
+      "label": "Atlas e protocolo",
+      "path": "projects/REP-0001-jogo-submarino/mosca-guia/app/sensory-lab/ATLAS-REPORT.md"
+    },
+    {
+      "label": "Plano de autonomia",
+      "path": "projects/REP-0012-cerebro-mosca/PLAN.md"
+    }
+  ]
+}
